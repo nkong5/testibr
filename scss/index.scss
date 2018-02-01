@@ -1,0 +1,79 @@
+/* stefan-stefancik-257625.jpg - Photo by Štefan Štefančík on Unsplash - https://unsplash.com/photos/UCZF1sXcejo */
+/* william-iven-22449.jpg - Photo by William Iven on Unsplash - https://unsplash.com/photos/jrh5lAq-mIs */
+/* carlos-muza-84523.jpg - Photo by Carlos Muza on Unsplash - https://unsplash.com/photos/hpjSkU2UYSU*/
+/* IBR */
+@import "bootstrap-overrides";
+$bg-default: #E5E5E5;
+
+html {
+  overflow-x: hidden;
+}
+
+.question-regular {
+}
+
+.question-container {
+  margin-top: 0rem !important;
+  padding: 1rem 0;
+}
+
+.question-container > .title, .question-container > .subtitle {
+  font-size: 3rem !important;
+  font-weight: lighter !important;
+  line-height: 3.5rem !important;
+}
+
+.question1 {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $bg-default;
+  height: 100vh;
+}
+
+.question2 {
+  padding: 15rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $bg-default;
+  height: 100vh;
+}
+
+.question-index {
+  color: $primary;
+  font-size: 3em !important;
+  font-weight: lighter;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.question-index > span {
+  font-weight: bolder;
+}
+
+blockquote {
+  font-size: 0.8em;
+  font-weight: 400;
+  text-align: left;
+  border-left: 8px solid $primary;
+  margin: 0 6px;
+  padding-top: 0px;
+  padding-right: 14px;
+  padding-bottom: 0px;
+  padding-left: 4px;
+  width: 20%;
+}
+blockquote:before {
+  color: #ccc;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
