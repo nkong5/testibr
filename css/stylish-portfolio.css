@@ -19,14 +19,14 @@ a:hover, a:focus, a:active {
 }
 
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
+  background-color: #df3848 !important;
+  border-color: #df3848 !important;
   color: #fff !important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: #c4202f !important;
+  border-color: #c4202f !important;
 }
 
 .btn-dark {
@@ -47,7 +47,7 @@ a:hover, a:focus, a:active {
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #df3848 !important;
 }
 
 body,
@@ -65,7 +65,7 @@ body {
 }
 
 .content-section {
-  padding-top: 7.5rem;
+  padding-top: 2.5rem;
   padding-bottom: 7.5rem;
 }
 

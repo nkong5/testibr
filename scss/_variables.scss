@@ -1,4 +1,6 @@
 // Variables
+$design-green: #7CCDA5;
+$design-red: #df3848;
 
 // Restated Bootstrap Variables
 
@@ -14,5 +16,5 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$primary: #1D809F !default;
-$secondary: #ecb807 !default;
+$primary: $design-green !default;
+$secondary: $design-red !default;

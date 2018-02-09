@@ -23,14 +23,14 @@ a:hover, a:focus, a:active {
 }
 
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
+  background-color: #df3848 !important;
+  border-color: #df3848 !important;
   color: #fff !important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: #c4202f !important;
+  border-color: #c4202f !important;
 }
 
 .btn-dark {
@@ -51,7 +51,7 @@ a:hover, a:focus, a:active {
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #df3848 !important;
 }
 
 html {
@@ -103,7 +103,7 @@ html {
 }
 
 .analysis-answer {
-  margin-top: 2.5rem;
+  margin-top: 3.5rem;
   text-align: left;
   line-height: 1.2em;
   padding: 0;
@@ -111,12 +111,13 @@ html {
 
 .analysis-answer > .analysis-number {
   color: #df3848;
-  font-size: 5em;
+  font-size: 3.7em;
+  font-weight: 600;
 }
 
 .analysis-answer > .analysis-percent {
   color: #df3848;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: lighter;
 }
 
@@ -127,11 +128,11 @@ html {
 .analysis-text:after {
   content: '';
   position: absolute;
-  width: 200%;
+  width: 170%;
   height: 1px;
   background: black;
   left: -8rem;
-  top: 33%;
+  top: 27%;
   transform: translateY(-50%);
   z-index: 1;
 }
@@ -142,29 +143,29 @@ html {
 }
 
 .analysis-answer .analysis-text2 {
-  padding-top: 9.7rem;
+  padding-top: 10.7rem;
 }
 
 .analysis-text2:after {
   content: '';
   position: absolute;
-  width: 200%;
+  width: 290%;
   height: 1px;
   background: black;
-  left: -8rem;
-  top: 33%;
+  left: -20rem;
+  top: 97%;
   transform: translateY(-50%);
   z-index: 1;
 }
 
 .checkbox {
-  padding-top: 2rem;
+  padding-top: 3.5rem;
 }
 
 .checkbox > img {
   padding: 0;
-  height: 11%;
-  max-width: 11%;
+  height: 9%;
+  max-width: 9%;
 }
 
 img {
