@@ -1,4 +1,5 @@
 @import "variables";
+@import "bootstrap-overrides";
 @import "mixins";
 @import "global";
 @import "masthead";
@@ -7,5 +8,4 @@
 @import "callout";
 @import "portfolio";
 @import "footer";
-@import "bootstrap-overrides";
 @import "../assets/fonts/gotham.css";
