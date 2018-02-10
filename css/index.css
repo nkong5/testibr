@@ -54,6 +54,40 @@ a:hover, a:focus, a:active {
   color: #df3848 !important;
 }
 
+.cat01 {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/cat01/thumbnail.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.cat02 {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/cat02/thumbnail.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.cat03 {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/cat03/thumbnail.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+nav .fa.arrow:before {
+  content: "\f105";
+  margin-left: 3px;
+}
+
+.nav-second-level {
+  display: none;
+}
+
+nav .sidebar-nav li:hover .nav-second-level {
+  display: block;
+}
+
 html {
   overflow-x: hidden;
   background-color: #E5E5E5;
