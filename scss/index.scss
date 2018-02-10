@@ -4,13 +4,48 @@
 /* IBR */
 @import "bootstrap-overrides";
 $bg-default: #E5E5E5;
+$information-laptop: "screen and (max-width : 1081px)";
+$information-fullhd: "only screen and (min-width : 1081px)";
 
 html {
   overflow-x: hidden;
   background-color: $bg-default;
 }
 
-.question-regular {
+body {
+  background-color: $bg-default;
+}
+
+section {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $bg-default;
+  height: 100vh;
+}
+
+.long-section {
+  min-height: 100vh;
+  height: unset;
+}
+
+.absolute-bottom-90 {
+  position: absolute !important;
+  top: 90vh !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  margin-top: 0rem !important;
+  padding: 1rem 0;
+}
+
+.container > .title, .container > .subtitle {
+  font-size: 200% !important;
+  font-weight: lighter !important;
+  line-height: 4.5rem !important;
 }
 
 .question-container {
@@ -19,28 +54,14 @@ html {
 }
 
 .question-container > .title, .question-container > .subtitle {
-  font-size: 250% !important;
+  font-size: 300% !important;
   font-weight: lighter !important;
   line-height: 3.5rem !important;
 }
 
-.question1 {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: $bg-default;
-  height: 100vh;
-}
-
-.question2 {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: $bg-default;
-  height: 100vh;
+.homepage {
+  padding-top: 10rem;
+  font-size: 200%;
 }
 
 .question-index {
@@ -53,14 +74,20 @@ html {
 }
 
 .question-index > span {
+  display: none;
   font-weight: bolder;
 }
 
 .analysis-answer {
-  margin-top: 3.5rem;
+  margin-top: 7.5rem;
+
   text-align: left;
   line-height: 1.2em;
   padding: 0;
+  padding-left: 3rem;
+  @media #{$information-laptop} {
+    margin-top: 3.5rem;
+  }
 }
 .analysis-answer > .analysis-number {
   color: #df3848;
@@ -76,33 +103,48 @@ html {
   font-weight: 400;
 }
 .analysis-text:after {
+  width: 184%;
+  left: -12rem;
+  top: 21%;
+
   content: '';
   position: absolute;
-  width: 170%;
   height: 1px;
   background: black;
-  left: -8rem;
-  top: 27%;
   transform: translateY(-50%);
   z-index: 1;
+  @media #{$information-laptop} {
+    width: 170%;
+    left: -8rem;
+    top: 27%;
+  }
 }
 .analysis-text > .number-highlight {
   color: #df3848;
   font-weight: 500;
 }
 .analysis-answer .analysis-text2 {
-  padding-top: 10.7rem;
+  padding-top: 15.7rem;
+  @media #{$information-laptop} {
+    padding-top: 10.7rem;
+  }
 }
 .analysis-text2:after {
+  width: 300%;
+  left: -28rem;
+  top: 100%;
+
   content: '';
   position: absolute;
-  width: 290%;
   height: 1px;
   background: black;
-  left: -20rem;
-  top: 97%;
   transform: translateY(-50%);
   z-index: 1;
+  @media #{$information-laptop} {
+    width: 290%;
+    left: -20rem;
+    top: 97%;
+  }
 }
 
 .checkbox {
@@ -124,6 +166,43 @@ img {
   padding-top: 6rem;
   max-width: 60% !important;
   max-height: 60% !important;
+}
+
+.business-man {
+  max-width: 40% !important;
+  max-height: 40% !important;
+}
+
+.rounded {
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+  background-color: $secondary;
+}
+
+.icon-rounded {
+  background: $secondary;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius:50%;
+  display:inline-block;
+  padding:25%;
+}
+
+i.icon-rounded > img {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+}
+
+hr {
+  border:none;
+  border-left:5px dotted $secondary;
+  color:#fff;
+  background-color: transparent;
+  height:60%;
+  width:1px;
 }
 
 blockquote {
