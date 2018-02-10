@@ -50,6 +50,19 @@ a:hover, a:focus, a:active {
   color: #df3848 !important;
 }
 
+.list-group-item {
+  background-color: #7CCDA5;
+  border: none;
+}
+
+.list-group-submenu {
+  padding-left: 2rem;
+}
+
+.list-group-submenu a:before {
+  content: "\00BB\0020";
+}
+
 body,
 html {
   width: 100%;

@@ -53,3 +53,15 @@ a {
 .text-secondary {
   color: $secondary !important;
 }
+
+.list-group-item {
+  background-color: $primary;
+  border: none;
+}
+.list-group-submenu {
+  //background-color: darken($primary, 10%) !important;
+  padding-left: 2rem;
+}
+.list-group-submenu a:before{
+  content: "\00BB\0020";
+}

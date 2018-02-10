@@ -54,6 +54,19 @@ a:hover, a:focus, a:active {
   color: #df3848 !important;
 }
 
+.list-group-item {
+  background-color: #7CCDA5;
+  border: none;
+}
+
+.list-group-submenu {
+  padding-left: 2rem;
+}
+
+.list-group-submenu a:before {
+  content: "\00BB\0020";
+}
+
 .cat01 {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/cat01/thumbnail.png");
   background-size: contain;
@@ -270,7 +283,7 @@ img {
   max-height: 40% !important;
 }
 
-.rounded {
+.ibr-rounded {
   -webkit-border-radius: 50% !important;
   -moz-border-radius: 50% !important;
   border-radius: 50% !important;
