@@ -14,13 +14,22 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="190" column="4" lean-forward="false" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="4" />
+            <state relative-caret-position="590">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#12432#12438#0" expanded="true" />
+                <element signature="e#12933#12939#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_sidebar.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/_sidebar.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="70" column="16" lean-forward="true" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -29,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/scss/_categories.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -39,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/scss/index.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="606">
-              <caret line="220" column="19" lean-forward="true" selection-start-line="220" selection-start-column="19" selection-end-line="220" selection-end-column="19" />
+              <caret line="220" column="19" lean-forward="false" selection-start-line="220" selection-start-column="19" selection-end-line="220" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -98,8 +107,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>social-link</find>
-      <find>about</find>
       <find>color</find>
       <find>summary</find>
       <find>text-secondary</find>
@@ -128,6 +135,8 @@
       <find>ques</find>
       <find>block</find>
       <find>container</find>
+      <find>sidebar-brand</find>
+      <find>wat</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -166,6 +175,7 @@
         <option value="$PROJECT_DIR$/scss/categories.sass" />
         <option value="$PROJECT_DIR$/scss/index.scss" />
         <option value="$PROJECT_DIR$/scss/_categories.scss" />
+        <option value="$PROJECT_DIR$/scss/_sidebar.scss" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -179,9 +189,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="138" />
-    <option name="y" value="-23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="47" />
+    <option name="y" value="-16" />
     <option name="width" value="1038" />
     <option name="height" value="688" />
   </component>
@@ -285,7 +295,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -323,18 +333,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="62" column="10" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#12432#12438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -387,9 +385,8 @@
         <state relative-caret-position="799">
           <caret line="62" column="10" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
           <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#12432#12438#0" expanded="true" />
+            <element signature="e#12933#12939#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -465,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../bibs/js/index.js" />
     <entry file="file://$PROJECT_DIR$/../bibs/index.html" />
     <entry file="file://$PROJECT_DIR$/../bibs/assets/css/style.css" />
@@ -519,14 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/stylish-portfolio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -635,7 +617,7 @@
     <entry file="file://$PROJECT_DIR$/scss/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
-          <caret line="220" column="19" lean-forward="true" selection-start-line="220" selection-start-column="19" selection-end-line="220" selection-end-column="19" />
+          <caret line="220" column="19" lean-forward="false" selection-start-line="220" selection-start-column="19" selection-end-line="220" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -643,7 +625,7 @@
     <entry file="file://$PROJECT_DIR$/scss/_categories.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -656,14 +638,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylish-portfolio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="206" column="16" lean-forward="false" selection-start-line="206" selection-start-column="16" selection-end-line="206" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="122" column="10" lean-forward="false" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_sidebar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="70" column="16" lean-forward="true" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="190" column="4" lean-forward="false" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="4" />
+        <state relative-caret-position="590">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#12432#12438#0" expanded="true" />
+            <element signature="e#12933#12939#0" expanded="true" />
           </folding>
         </state>
       </provider>
