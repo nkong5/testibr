@@ -44,6 +44,18 @@ section {
 .homepage {
   padding-top: 10rem;
   font-size: 200%;
+
+  height: 100vh;
+  @media #{$information-laptop} {
+    padding-top: 5rem;
+    font-size: 180% !important;
+  }
+}
+
+.homepage img {
+  @media #{$information-laptop} {
+    max-height: 20rem !important;
+  }
 }
 
 .checkbox {
@@ -73,6 +85,14 @@ hr {
   background-color: transparent;
   height:60%;
   width:1px;
+}
+
+connection {
+  border-style: dotted !important;
+  border-color: $secondary !important;
+  color:#fff !important;
+  background-color: transparent !important;
+  width:1px !important;
 }
 
 blockquote {

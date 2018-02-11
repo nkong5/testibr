@@ -35,7 +35,8 @@
   padding: 0;
   padding-left: 3rem;
   @media #{$information-laptop} {
-    margin-top: 3.5rem;
+    margin-top: 4rem;
+    padding-left: 1.5rem;
   }
 }
 .analysis-answer > .analysis-number {
@@ -63,7 +64,7 @@
   transform: translateY(-50%);
   z-index: 1;
   @media #{$information-laptop} {
-    width: 170%;
+    width: 180%;
     left: -8rem;
     top: 27%;
   }

@@ -20,6 +20,18 @@ i.icon-rounded > img {
   max-height: 40% !important;
 }
 
+#new-link-line {
+    position: absolute;
+    width: 3px;
+    background-color: #06a;
+    z-index: 1000;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+
 .question2 .analysis-answer {
   margin-left: 0 !important;
   margin-right: 0 !important;
