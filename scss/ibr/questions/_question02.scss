@@ -1,0 +1,66 @@
+@import "../variables";
+
+.icon-rounded {
+  background: $secondary;
+  font-size: 25px;
+  text-align: center;
+  border-radius:50%;
+  display:inline-block;
+  padding:30%;
+}
+
+i.icon-rounded > img {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+}
+
+.business-man {
+  max-width: 40% !important;
+  max-height: 40% !important;
+}
+
+#new-link-line {
+    position: absolute;
+    width: 3px;
+    background-color: #06a;
+    z-index: 1000;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+
+.question2 .analysis-answer {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-top: 4.5rem !important;
+}
+
+.question2 .colliding-col {
+  //margin-right: -16% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.question2 .icon-rounded {
+  margin: -10%;
+}
+
+.colliding-col:nth-child(1) {
+  width: 50% !important;
+}
+.colliding-col:nth-child(2) {
+  width: 40% !important;
+}
+.colliding-col:nth-child(3) {
+  width: 10% !important;
+}
+//.question2 .colliding-cols .colliding-col:nth-child(2) {
+//  width: 30% !important;
+//}
+//.question2 .colliding-cols .colliding-col:nth-child(3) {
+//  width: 20% !important;
+//}

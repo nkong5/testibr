@@ -1,0 +1,31 @@
+@import "../variables";
+
+.analysis-answer .analysis-text2 {
+  padding-top: 15.7rem !important;
+  @media #{$information-laptop} {
+    padding-top: 9rem !important;
+  }
+}
+.analysis-text2:after {
+  width: 300%;
+  left: -28rem;
+  top: 100%;
+
+  content: '';
+  position: absolute;
+  height: 1px;
+  background: black;
+  transform: translateY(-50%);
+  z-index: 1;
+  @media #{$information-laptop} {
+    width: 300%;
+    left: -20rem;
+    top: 96%;
+  }
+}
+
+.worldtv {
+  padding-top: 6rem;
+  max-width: 60% !important;
+  max-height: 60% !important;
+}
