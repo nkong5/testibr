@@ -561,9 +561,13 @@ section {
   }
 }
 
+.homepage img {
+  max-height: 50vh !important;
+}
+
 @media screen and (max-width: 1366px) {
   .homepage img {
-    max-height: 20rem !important;
+    max-height: 18rem !important;
   }
 }
 

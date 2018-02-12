@@ -53,8 +53,9 @@ section {
 }
 
 .homepage img {
+  max-height: 50vh !important;
   @media #{$information-laptop} {
-    max-height: 20rem !important;
+    max-height: 18rem !important;
   }
 }
 
