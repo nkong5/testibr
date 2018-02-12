@@ -1020,6 +1020,299 @@ i.icon-rounded > img {
   width: 10% !important;
 }
 
+a {
+  color: #7DCDA5;
+}
+
+a:hover, a:focus, a:active {
+  color: #58bf8c;
+}
+
+.btn-primary {
+  background-color: #7DCDA5 !important;
+  border-color: #7DCDA5 !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #58bf8c !important;
+  border-color: #58bf8c !important;
+}
+
+.btn-secondary {
+  background-color: #DE3849 !important;
+  border-color: #DE3849 !important;
+  color: #fff !important;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: #c32031 !important;
+  border-color: #c32031 !important;
+}
+
+.btn-dark {
+  color: #fff !important;
+}
+
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+}
+
+.bg-primary {
+  background-color: #7DCDA5 !important;
+}
+
+.text-primary {
+  color: #7DCDA5 !important;
+}
+
+.text-secondary {
+  color: #DE3849 !important;
+}
+
+.list-group-item {
+  background-color: #7DCDA5;
+  border: none;
+}
+
+.list-group-submenu {
+  padding-left: 2rem;
+}
+
+.list-group-submenu a:before {
+  content: "\00BB\0020";
+}
+
+a {
+  color: #7DCDA5;
+}
+
+a:hover, a:focus, a:active {
+  color: #58bf8c;
+}
+
+.btn-primary {
+  background-color: #7DCDA5 !important;
+  border-color: #7DCDA5 !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #58bf8c !important;
+  border-color: #58bf8c !important;
+}
+
+.btn-secondary {
+  background-color: #DE3849 !important;
+  border-color: #DE3849 !important;
+  color: #fff !important;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: #c32031 !important;
+  border-color: #c32031 !important;
+}
+
+.btn-dark {
+  color: #fff !important;
+}
+
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+}
+
+.bg-primary {
+  background-color: #7DCDA5 !important;
+}
+
+.text-primary {
+  color: #7DCDA5 !important;
+}
+
+.text-secondary {
+  color: #DE3849 !important;
+}
+
+.list-group-item {
+  background-color: #7DCDA5;
+  border: none;
+}
+
+.list-group-submenu {
+  padding-left: 2rem;
+}
+
+.list-group-submenu a:before {
+  content: "\00BB\0020";
+}
+
+.analysis-answer .analysis-text2 {
+  padding-top: 15.7rem !important;
+}
+
+@media screen and (max-width: 1366px) {
+  .analysis-answer .analysis-text2 {
+    padding-top: 9rem !important;
+  }
+}
+
+.analysis-text2:after {
+  width: 300%;
+  left: -28rem;
+  top: 100%;
+  content: '';
+  position: absolute;
+  height: 1px;
+  background: black;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+@media screen and (max-width: 1366px) {
+  .analysis-text2:after {
+    width: 300%;
+    left: -20rem;
+    top: 96%;
+  }
+}
+
+.worldtv {
+  padding-top: 6rem;
+  max-width: 60% !important;
+  max-height: 60% !important;
+}
+
+a {
+  color: #7DCDA5;
+}
+
+a:hover, a:focus, a:active {
+  color: #58bf8c;
+}
+
+.btn-primary {
+  background-color: #7DCDA5 !important;
+  border-color: #7DCDA5 !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #58bf8c !important;
+  border-color: #58bf8c !important;
+}
+
+.btn-secondary {
+  background-color: #DE3849 !important;
+  border-color: #DE3849 !important;
+  color: #fff !important;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: #c32031 !important;
+  border-color: #c32031 !important;
+}
+
+.btn-dark {
+  color: #fff !important;
+}
+
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+}
+
+.bg-primary {
+  background-color: #7DCDA5 !important;
+}
+
+.text-primary {
+  color: #7DCDA5 !important;
+}
+
+.text-secondary {
+  color: #DE3849 !important;
+}
+
+.list-group-item {
+  background-color: #7DCDA5;
+  border: none;
+}
+
+.list-group-submenu {
+  padding-left: 2rem;
+}
+
+.list-group-submenu a:before {
+  content: "\00BB\0020";
+}
+
+.icon-rounded {
+  background: #DE3849;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 30%;
+}
+
+i.icon-rounded > img {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+}
+
+.business-man {
+  max-width: 40% !important;
+  max-height: 40% !important;
+}
+
+#new-link-line {
+  position: absolute;
+  width: 3px;
+  background-color: #06a;
+  z-index: 1000;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+
+.question2 .analysis-answer {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-top: 4.5rem !important;
+}
+
+.question2 .colliding-col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.question2 .icon-rounded {
+  margin: -10%;
+}
+
+.colliding-col:nth-child(1) {
+  width: 50% !important;
+}
+
+.colliding-col:nth-child(2) {
+  width: 40% !important;
+}
+
+.colliding-col:nth-child(3) {
+  width: 10% !important;
+}
+
+.question13 .analysis-answer {
+  margin-top: 13.5rem;
+}
+
 .question-container {
   margin-top: 0rem !important;
   padding: 1rem 0;
@@ -1060,16 +1353,45 @@ i.icon-rounded > img {
   }
 }
 
-.analysis-answer > .analysis-number {
-  color: #df3848;
+.analysis-number {
+  color: #DE3849;
   font-size: 3.7em;
   font-weight: 600;
 }
 
-.analysis-answer > .analysis-percent {
-  color: #df3848;
+.analysis-number2 {
+  color: #7DCDA5;
+  font-size: 3.7em;
+  font-weight: 600;
+}
+
+.analysis-number3 {
+  color: #73818A;
+  font-size: 3.7em;
+  font-weight: 600;
+}
+
+.analysis-percent {
+  padding-top: 1rem;
   font-size: 2.5em;
   font-weight: lighter;
+}
+
+.analysis-number + .analysis-percent {
+  color: #DE3849;
+}
+
+.analysis-number2 + .analysis-percent {
+  color: #7DCDA5;
+}
+
+.analysis-number3 + .analysis-percent {
+  color: #73818A;
+}
+
+.barchart-value {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
 .analysis-answer > .analysis-text {
@@ -1097,8 +1419,20 @@ i.icon-rounded > img {
 }
 
 .analysis-text > .number-highlight {
-  color: #df3848;
+  color: #7DCDA5;
   font-weight: 500;
+}
+
+.ibr-underline:after {
+  width: 8rem;
+  top: 5rem;
+  left: 3.7rem;
+  content: '';
+  position: absolute;
+  height: 1px;
+  background: #DE3849;
+  transform: translateY(-50%);
+  z-index: 1;
 }
 
 .ibr-rounded {

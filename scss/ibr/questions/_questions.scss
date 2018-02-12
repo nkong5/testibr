@@ -1,6 +1,7 @@
 @import "../variables";
 @import "question01";
 @import "question02";
+@import "question13";
 
 .question-container {
   margin-top: 0rem !important;
@@ -39,16 +40,42 @@
     padding-left: 1.5rem;
   }
 }
-.analysis-answer > .analysis-number {
-  color: #df3848;
+.analysis-number {
+  color: $secondary;
   font-size: 3.7em;
   font-weight: 600;
 }
-.analysis-answer > .analysis-percent {
-  color: #df3848;
+.analysis-number2 {
+  color: $primary;
+  font-size: 3.7em;
+  font-weight: 600;
+}
+.analysis-number3 {
+  color: $tertiary;
+  font-size: 3.7em;
+  font-weight: 600;
+}
+.analysis-percent {
+  padding-top: 1rem;
   font-size: 2.5em;
   font-weight: lighter;
 }
+
+.analysis-number + .analysis-percent {
+  color: $secondary;
+}
+.analysis-number2 + .analysis-percent {
+  color: $primary;
+}
+.analysis-number3 + .analysis-percent {
+  color: $tertiary;
+}
+
+.barchart-value {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
 .analysis-answer > .analysis-text {
   font-weight: 400;
 }
@@ -70,8 +97,20 @@
   }
 }
 .analysis-text > .number-highlight {
-  color: #df3848;
+  color: $primary;
   font-weight: 500;
+}
+
+.ibr-underline:after {
+  width: 8rem;
+  top: 5rem;
+  left: 3.7rem;
+  content: '';
+  position: absolute;
+  height: 1px;
+  background: $secondary;
+  transform: translateY(-50%);
+  z-index: 1;
 }
 
 .ibr-rounded {
