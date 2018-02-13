@@ -10,14 +10,14 @@ a {
 }
 
 .btn-primary {
-  background-color: $primary !important;
-  border-color: $primary !important;
+  background-color: $quaternary !important;
+  border-color: $quaternary !important;
   color: $white !important;
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($primary, 10%) !important;
-    border-color: darken($primary, 10%) !important;
+    background-color: darken($quaternary, 10%) !important;
+    border-color: darken($quaternary, 10%) !important;
   }
 }
 
