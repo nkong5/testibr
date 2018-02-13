@@ -1,0 +1,38 @@
+@import "../variables";
+@import "question01";
+@import "question02";
+
+#q03men {
+  margin-top: 11.5rem;
+}
+
+$q03-rounded-margin-top: 5%;
+#q03 .ibr-rounded-secondary {
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+  background-color: $primary;
+  color: $white;
+  width: 30%;
+  font-size: 1.5em;
+  text-align: left;
+  margin-top: $q03-rounded-margin-top;
+}
+#q03 .ibr-rounded-secondary .ibr-index {
+  font-size: 2em;
+  text-align: center;
+}
+
+#q03 .ibr-rounded-secondary span {
+  font-weight: bolder;
+}
+
+#q03 .ibr-rounded-secondary:nth-child(1) {
+  margin-top: $q03-rounded-margin-top + 10%;
+  margin-right: -2%;
+}
+
+#q03 .ibr-rounded-secondary:nth-child(4) {
+  margin-top: $q03-rounded-margin-top + 10%;
+  margin-left: -2%;
+}

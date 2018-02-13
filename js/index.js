@@ -13,7 +13,26 @@
 
     $('#business-man').connections({ to: '#q02_diag01' });
     connect();
+
+    roundElements();
   });
+
+  function roundElements() {
+    $('.ibr-rounded-secondary').each(function () {
+      var height = getNumberOfPixels($(this), 'height');
+      var width = getNumberOfPixels($(this), 'width');
+      if(width > height) {
+        this.style.setProperty('height', width + 'px', 'important');
+      } else {
+        this.style.setProperty('width', height + 'px', 'important');
+      }
+    });
+
+    $('#q03men').each(function () {
+      var width = getNumberOfPixels($(this), 'width');
+      this.style.setProperty('height', width*0.91011236 + 'px', 'important');
+    });
+  }
 
   // TODO: Fix this terrible block of code
   function alignBasedOn(toAlign, referenceElement, referenceRatio, addMargins) {
@@ -28,14 +47,7 @@
       marginTop += getNumberOfPixels(text, 'padding-top');
     }
 
-    // toAlign.css({
-    //   'margin-top': marginTop
-    // });
-
     var text = parent.children('.analysis-answer').first();
-    // text.css({
-    //   'margin-top': marginTop + 'px !important'
-    // });
     text.each(function () {
       this.style.setProperty( 'padding-top', marginTop + 'px', 'important' );
     });
