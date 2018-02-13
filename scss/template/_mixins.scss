@@ -10,4 +10,5 @@
 // Font Mixins
 @mixin body-font {
   font-family: "GothamPro", monospace;
+  color: $text-color;
 }

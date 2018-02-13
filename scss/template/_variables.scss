@@ -2,6 +2,9 @@
 $design-green: #7DCDA5;
 $design-red: #DE3849;
 $design-gray: #73818A;
+$design-blue: #5aa3ee;
+$design-gray-dark: #3b4449;
+$design-gray-light: #e5e5e5;
 
 // Restated Bootstrap Variables
 
@@ -20,3 +23,7 @@ $black: #000 !default;
 $primary: $design-green !default;
 $secondary: $design-red !default;
 $tertiary: $design-gray !default;
+
+// Project Variables
+$bg-default: $design-gray-light;
+$text-color: $design-gray-dark;
