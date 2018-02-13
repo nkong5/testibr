@@ -14,12 +14,11 @@
       <file leaf-file-name="index.html" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="934" column="33" lean-forward="false" selection-start-line="934" selection-start-column="22" selection-end-line="934" selection-end-column="33" />
+            <state relative-caret-position="187">
+              <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="32" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#a#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -41,13 +40,23 @@
                 <element signature="n#section#17;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#18;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#20;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#32484#32490#0" expanded="true" />
+                <element signature="e#32674#32680#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_sidebar.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/template/_sidebar.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/template/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -140,7 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>list-group-item</find>
       <find>&lt;/li&gt;</find>
       <find>dar</find>
       <find>block</find>
@@ -170,6 +178,7 @@
       <find>callou</find>
       <find>url</find>
       <find>nex</find>
+      <find>sidebar-brand</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -230,9 +239,10 @@
         <option value="$PROJECT_DIR$/scss/ibr/questions/_question05.scss" />
         <option value="$PROJECT_DIR$/scss/template/_variables.scss" />
         <option value="$PROJECT_DIR$/scss/template/_bootstrap-overrides.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/template/_portfolio.scss" />
         <option value="$PROJECT_DIR$/scss/template/_footer.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/template/_sidebar.scss" />
       </list>
     </option>
   </component>
@@ -517,14 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/template/_sidebar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="70" column="19" lean-forward="true" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/stylish-portfolio.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -747,14 +749,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/template/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="934" column="33" lean-forward="false" selection-start-line="934" selection-start-column="22" selection-end-line="934" selection-end-column="33" />
+        <state relative-caret-position="187">
+          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="32" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -776,15 +785,15 @@
             <element signature="n#section#17;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#18;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#20;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#32484#32490#0" expanded="true" />
+            <element signature="e#32674#32680#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/template/_footer.scss">
+    <entry file="file://$PROJECT_DIR$/scss/template/_sidebar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="250">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
           <folding />
         </state>
       </provider>
