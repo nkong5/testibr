@@ -1,11 +1,11 @@
 @import "variables";
 
 a {
-  color: $primary;
+  color: $text-color;
   &:hover,
   &:focus,
   &:active {
-    color: darken($primary, 10%);
+    color: darken($text-color, 10%);
   }
 }
 

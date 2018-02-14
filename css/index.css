@@ -1,10 +1,10 @@
 @import url(../assets/fonts/gotham.css);
 a {
-  color: #7DCDA5;
+  color: #3b4449;
 }
 
 a:hover, a:focus, a:active {
-  color: #58bf8c;
+  color: #242a2d;
 }
 
 .btn-primary {
@@ -318,34 +318,66 @@ h6 {
   }
 }
 
-footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #e5e5e5 !important;
+footer {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
 }
 
-footer.footer .social-link {
+footer.main-footer p {
+  color: #b2b2b2;
+  font-weight: 300;
+}
+
+footer.main-footer a {
+  text-decoration: none;
+}
+
+footer.main-footer .signup {
+  color: #999999;
+  font-size: 2rem;
+  margin-bottom: 3em;
+  font-weight: 200;
+}
+
+footer.main-footer .signup:hover {
+  color: #666666 !important;
+}
+
+footer.main-footer .social-ul {
+  margin-bottom: 1rem;
+}
+
+footer.main-footer .social-link {
+  padding: 0;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  height: 2.2rem;
+  width: 2.2rem !important;
+  max-width: 2.2rem !important;
   display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #000;
+  line-height: 1.3rem;
+  font-size: 1rem;
+  background-color: black !important;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
 }
 
-footer.footer .social-link:hover {
+footer.main-footer .social-link:hover {
   background-color: black;
   text-decoration: none;
 }
 
+footer.main-footer .social-link .fa {
+  color: #e5e5e5;
+  font-size: 1.5rem;
+}
+
 a {
-  color: #7DCDA5;
+  color: #3b4449;
 }
 
 a:hover, a:focus, a:active {
-  color: #58bf8c;
+  color: #242a2d;
 }
 
 .btn-primary {
@@ -404,11 +436,11 @@ a:hover, a:focus, a:active {
 }
 
 a {
-  color: #7DCDA5;
+  color: #3b4449;
 }
 
 a:hover, a:focus, a:active {
-  color: #58bf8c;
+  color: #242a2d;
 }
 
 .btn-primary {
@@ -597,11 +629,11 @@ blockquote p {
 }
 
 a {
-  color: #7DCDA5;
+  color: #3b4449;
 }
 
 a:hover, a:focus, a:active {
-  color: #58bf8c;
+  color: #242a2d;
 }
 
 .btn-primary {
@@ -694,11 +726,11 @@ nav .sidebar-nav li:hover .nav-second-level {
 }
 
 a {
-  color: #7DCDA5;
+  color: #3b4449;
 }
 
 a:hover, a:focus, a:active {
-  color: #58bf8c;
+  color: #242a2d;
 }
 
 .btn-primary {
@@ -757,11 +789,11 @@ a:hover, a:focus, a:active {
 }
 
 a {
-  color: #7DCDA5;
+  color: #3b4449;
 }
 
 a:hover, a:focus, a:active {
-  color: #58bf8c;
+  color: #242a2d;
 }
 
 .btn-primary {
@@ -856,11 +888,11 @@ a:hover, a:focus, a:active {
 }
 
 a {
-  color: #7DCDA5;
+  color: #3b4449;
 }
 
 a:hover, a:focus, a:active {
-  color: #58bf8c;
+  color: #242a2d;
 }
 
 .btn-primary {
@@ -980,11 +1012,11 @@ i.icon-rounded > img {
 }
 
 a {
-  color: #7DCDA5;
+  color: #3b4449;
 }
 
 a:hover, a:focus, a:active {
-  color: #58bf8c;
+  color: #242a2d;
 }
 
 .btn-primary {
@@ -1078,11 +1110,11 @@ a:hover, a:focus, a:active {
 }
 
 a {
-  color: #7DCDA5;
+  color: #3b4449;
 }
 
 a:hover, a:focus, a:active {
-  color: #58bf8c;
+  color: #242a2d;
 }
 
 .btn-primary {
@@ -1165,11 +1197,11 @@ a:hover, a:focus, a:active {
 }
 
 a {
-  color: #7DCDA5;
+  color: #3b4449;
 }
 
 a:hover, a:focus, a:active {
-  color: #58bf8c;
+  color: #242a2d;
 }
 
 .btn-primary {

@@ -1,19 +1,54 @@
-footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: $bg-default !important;
+footer {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+}
+
+footer.main-footer {
+  p {
+    color: darken($design-gray-light, 20%);
+    font-weight: 300;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .signup {
+    color: darken($design-gray-light, 30%);
+    font-size: 2rem;
+    margin-bottom: 3em;
+    font-weight: 200;
+
+    &:hover {
+      color: darken($design-gray-light, 50%) !important;
+    }
+  }
+
+  .social-ul {
+    margin-bottom: 1rem;
+  }
+
   .social-link {
+    padding: 0;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    height: 2.2rem;
+    width: 2.2rem !important;
+    max-width: 2.2rem !important;
     display: block;
-    height: 4rem;
-    width: 4rem;
-    line-height: 4.3rem;
-    font-size: 1.5rem;
-    background-color: $black;
+    line-height: 1.3rem;
+    font-size: 1rem;
+    background-color: black !important;
     transition: background-color 0.15s ease-in-out;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
     &:hover {
       background-color: darken($black, 10%);
       text-decoration: none;
     }
+  }
+
+  .social-link .fa {
+    color: $design-gray-light;
+    font-size: 1.5rem;
   }
 }
