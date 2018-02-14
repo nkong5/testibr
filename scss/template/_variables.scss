@@ -25,6 +25,12 @@ $secondary: $design-red !default;
 $tertiary: $design-gray !default;
 $quaternary: $design-blue !default;
 
+// IBR Official Website's variables
+$ibr-nav: #a3a3a3;
+$ibr-nav-text-color: #E5E2E2;
+
 // Project Variables
 $bg-default: $design-gray-light;
 $text-color: $design-gray-dark;
+$nav-color: $ibr-nav;
+$nav-text-color: $ibr-nav-text-color;

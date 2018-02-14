@@ -1,17 +1,18 @@
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background-color: $bg-default !important;
   .social-link {
     display: block;
     height: 4rem;
     width: 4rem;
     line-height: 4.3rem;
     font-size: 1.5rem;
-    background-color: $quaternary;
+    background-color: $black;
     transition: background-color 0.15s ease-in-out;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
     &:hover {
-      background-color: darken($quaternary, 10%);
+      background-color: darken($black, 10%);
       text-decoration: none;
     }
   }
