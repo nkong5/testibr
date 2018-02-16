@@ -507,13 +507,24 @@ body {
   background-color: #cccccc;
 }
 
-section {
+section:not(.category) {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #e6e6e6;
   height: 100vh;
+}
+
+.category {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vw;
+  max-width: 100vmax;
 }
 
 section:not(.homepage):nth-child(odd) {
