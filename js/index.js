@@ -30,7 +30,7 @@
 
     $('#q03men').each(function () {
       var width = getNumberOfPixels($(this), 'width');
-      this.style.setProperty('height', width*0.91011236 + 'px', 'important');
+      // this.style.setProperty('height', width*0.91011236 + 'px', 'important');
     });
   }
 
