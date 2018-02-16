@@ -6,6 +6,12 @@ $design-blue: #5aa3ee;
 $design-gray-dark: #3b4449;
 $design-gray-light: #e5e5e5;
 
+$design-gray-scale-1: #e6e6e6;
+$design-gray-scale-2: #cccccc;
+$design-gray-scale-3: #b3b3b3;
+$design-gray-scale-4: #999999;
+$design-gray-scale-5: #808080;
+
 // Restated Bootstrap Variables
 
 $white: #fff !default;
@@ -30,7 +36,8 @@ $ibr-nav: #a3a3a3;
 $ibr-nav-text-color: #E5E2E2;
 
 // Project Variables
-$bg-default: $design-gray-light;
+$bg-default: $design-gray-scale-2;
+$bg-default2: $design-gray-scale-1;
 $text-color: $design-gray-dark;
 $nav-color: $ibr-nav;
 $nav-text-color: $ibr-nav-text-color;

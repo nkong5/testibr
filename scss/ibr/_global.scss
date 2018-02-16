@@ -14,8 +14,13 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: $bg-default;
+  background-color: $bg-default2;
   height: 100vh;
+}
+
+
+section:not(.homepage):nth-child(odd) {
+  background-color: $bg-default !important;
 }
 
 .long-section {
@@ -89,7 +94,7 @@ img {
 
 hr {
   border:none;
-  border-left:5px dotted $secondary;
+  border-left:1vmin dotted $secondary;
   color:#fff;
   background-color: transparent;
   height:60%;

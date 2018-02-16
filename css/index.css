@@ -500,11 +500,11 @@ a:hover, a:focus, a:active {
 
 html {
   overflow-x: hidden;
-  background-color: #e5e5e5;
+  background-color: #cccccc;
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #cccccc;
 }
 
 section {
@@ -512,8 +512,12 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #e5e5e5;
+  background-color: #e6e6e6;
   height: 100vh;
+}
+
+section:not(.homepage):nth-child(odd) {
+  background-color: #cccccc !important;
 }
 
 .long-section {
@@ -585,7 +589,7 @@ img {
 
 hr {
   border: none;
-  border-left: 5px dotted #DE3849;
+  border-left: 1vmin dotted #DE3849;
   color: #fff;
   background-color: transparent;
   height: 60%;
@@ -1273,7 +1277,7 @@ a:hover, a:focus, a:active {
   font-size: 300% !important;
   font-weight: lighter !important;
   line-height: 3.5rem !important;
-  margin-bottom: 0 !important;
+  margin-bottom: 7vmin !important;
 }
 
 #q01 .question-index, #q02 .question-index, #q04 .question-index,
@@ -1297,11 +1301,12 @@ a:hover, a:focus, a:active {
 }
 
 .analysis-answer {
-  margin-top: 7.5rem;
+  margin-top: 14vh;
   text-align: left;
   line-height: 1.2em;
   padding: 0;
   padding-left: 3rem;
+  font-size: 2vmin;
 }
 
 @media screen and (max-width: 1366px) {
@@ -1359,7 +1364,7 @@ a:hover, a:focus, a:active {
 .analysis-text1:after {
   width: 184%;
   left: -12rem;
-  top: 21%;
+  top: 12vmin;
   content: '';
   position: absolute;
   height: 1px;

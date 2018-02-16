@@ -14,7 +14,7 @@
   font-size: 300% !important;
   font-weight: lighter !important;
   line-height: 3.5rem !important;
-  margin-bottom: 0 !important;
+  margin-bottom: 7vmin !important;
 }
 
 #q01 .question-index, #q02 .question-index, #q04 .question-index,
@@ -38,12 +38,13 @@
 }
 
 .analysis-answer {
-  margin-top: 7.5rem;
+  margin-top: 14vh;
 
   text-align: left;
   line-height: 1.2em;
   padding: 0;
   padding-left: 3rem;
+  font-size: 2vmin;
   @media #{$information-laptop} {
     margin-top: 4rem;
     padding-left: 1.5rem;
@@ -91,7 +92,7 @@
 .analysis-text1:after {
   width: 184%;
   left: -12rem;
-  top: 21%;
+  top: 12vmin;
 
   content: '';
   position: absolute;
