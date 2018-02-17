@@ -1,12 +1,20 @@
 @import "variables";
 
+* {
+  max-width: 100vw;
+}
+
 html {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   background-color: $bg-default;
 }
 
 body {
   background-color: $bg-default;
+}
+
+section {
+  margin-left: 0px !important;
 }
 
 section:not(.category) {
@@ -15,7 +23,10 @@ section:not(.category) {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: $bg-default2;
-  height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+  min-width: 100vw;
+  overflow-x: hidden !important;
 }
 
 .category {
@@ -93,7 +104,8 @@ section:not(.homepage):nth-child(odd) {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 50vw;
   max-height: 100%;
 }
 

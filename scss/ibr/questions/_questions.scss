@@ -8,13 +8,14 @@
 .question-container {
   margin-top: 0rem !important;
   padding: 1rem 0;
-}
 
-.question-container > .title, .question-container > .subtitle {
-  font-size: 300% !important;
-  font-weight: lighter !important;
-  line-height: 3.5rem !important;
-  margin-bottom: 7vmin !important;
+  $text-size: 7vmin;
+  .title, .subtitle {
+    font-size: $text-size;
+    font-weight: lighter !important;
+    line-height: $text-size !important;
+    margin-bottom: 7vmin !important;
+  }
 }
 
 #q01 .question-index, #q02 .question-index, #q04 .question-index,

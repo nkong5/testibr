@@ -320,6 +320,9 @@ h6 {
 
 footer {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+  overflow-x: scroll;
+  width: 100vw;
+  max-width: 100vw;
 }
 
 footer.main-footer p {
@@ -498,13 +501,21 @@ a:hover, a:focus, a:active {
   content: "\00BB\0020";
 }
 
+* {
+  max-width: 100vw;
+}
+
 html {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   background-color: #cccccc;
 }
 
 body {
   background-color: #cccccc;
+}
+
+section {
+  margin-left: 0px !important;
 }
 
 section:not(.category) {
@@ -513,7 +524,10 @@ section:not(.category) {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #e6e6e6;
-  height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+  min-width: 100vw;
+  overflow-x: hidden !important;
 }
 
 .category {
@@ -589,7 +603,8 @@ section:not(.homepage):nth-child(odd) {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 50vw;
   max-height: 100%;
 }
 
@@ -1284,10 +1299,10 @@ a:hover, a:focus, a:active {
   padding: 1rem 0;
 }
 
-.question-container > .title, .question-container > .subtitle {
-  font-size: 300% !important;
+.question-container .title, .question-container .subtitle {
+  font-size: 7vmin;
   font-weight: lighter !important;
-  line-height: 3.5rem !important;
+  line-height: 7vmin !important;
   margin-bottom: 7vmin !important;
 }
 
