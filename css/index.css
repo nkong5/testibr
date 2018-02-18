@@ -582,10 +582,9 @@ section:not(.homepage):nth-child(odd) {
   margin-bottom: 14vmin;
 }
 
-@media screen and (max-width: 1366px) {
-  .homepage img {
-    max-height: 18rem !important;
-  }
+.homepage img {
+  height: 49.30947vh !important;
+  width: 33vh !important;
 }
 
 .homepage .btn {

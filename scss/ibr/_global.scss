@@ -81,10 +81,11 @@ section:not(.homepage):nth-child(odd) {
   }
 
   img {
-    //max-height: 50vh !important;
-    @media #{$information-laptop} {
-      max-height: 18rem !important;
-    }
+    height: 33vh*(647/433) !important;
+    width: 33vh !important;
+    //@media #{$information-laptop} {
+    //  max-height: 18rem !important;
+    //}
   }
 
   .btn {
