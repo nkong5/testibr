@@ -42,18 +42,20 @@
   font-weight: bolder;
 }
 
-.analysis-answer {
-  margin-top: 12vh;
+.d-flex:nth-child(1) .analysis-answer {
+  margin-top: 14vh;
+}
 
+.analysis-answer {
   text-align: left;
   line-height: 1.2em;
   padding: 0;
   padding-left: 3rem;
   font-size: 2vmin;
-  @media #{$information-laptop} {
-    margin-top: 4rem;
-    padding-left: 1.5rem;
-  }
+  //@media #{$information-laptop} {
+  //  margin-top: 4rem;
+  //  padding-left: 1.5rem;
+  //}
 }
 .analysis-number {
   color: $secondary;
@@ -97,7 +99,7 @@
 .analysis-text1:after {
   width: 21vw;
   left: 14vw;
-  top: 25vh;
+  top: 26.5vh;
 
   content: '';
   position: absolute;
@@ -110,7 +112,7 @@
   }
 }
 .analysis-text > .number-highlight {
-  color: $primary;
+  color: $secondary;
   font-weight: 500;
 }
 

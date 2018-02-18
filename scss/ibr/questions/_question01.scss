@@ -17,8 +17,8 @@
 
   .checkbox {
     img {
-      height: 7vw;
-      width: 4vw;
+      height: 6vw;
+      width: 3vw;
       margin-left: 0.1vw;
     }
   }
@@ -36,28 +36,32 @@
     max-width: 10vw;
     max-height: 15vw;
   }
-}
 
-.analysis-answer .analysis-text2 {
-  padding-top: 15.7rem !important;
-  @media #{$information-laptop} {
-    padding-top: 9rem !important;
+  .d-flex:nth-child(2) .analysis-answer {
+    margin-top: 6vh;
   }
-}
-.analysis-text2:after {
-  width: 300%;
-  left: -28rem;
-  top: 100%;
 
-  content: '';
-  position: absolute;
-  height: 1px;
-  background: black;
-  transform: translateY(-50%);
-  z-index: 1;
-  @media #{$information-laptop} {
-    width: 300%;
-    left: -20rem;
-    top: 96%;
+  .analysis-text2 {
+    //padding-top: 15.7rem !important;
+    //@media #{$information-laptop} {
+    //  padding-top: 9rem !important;
+    //}
+  }
+
+  .analysis-text2:after {
+    width: 39vw;
+    left: -1vw;
+    top: 66.5vh;
+
+    content: '';
+    position: absolute;
+    height: 1px;
+    background: black;
+    transform: translateY(-50%);
+    z-index: 1;
+
+    @media #{$information-laptop} {
+      display: none;
+    }
   }
 }
