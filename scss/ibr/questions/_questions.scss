@@ -39,7 +39,7 @@
 }
 
 .analysis-answer {
-  margin-top: 14vh;
+  margin-top: 12vh;
 
   text-align: left;
   line-height: 1.2em;
@@ -91,9 +91,9 @@
   font-weight: 400;
 }
 .analysis-text1:after {
-  width: 184%;
-  left: -12rem;
-  top: 12vmin;
+  width: 21vw;
+  left: 14vw;
+  top: 25vh;
 
   content: '';
   position: absolute;
@@ -102,9 +102,7 @@
   transform: translateY(-50%);
   z-index: 1;
   @media #{$information-laptop} {
-    width: 180%;
-    left: -8rem;
-    top: 27%;
+    display: none;
   }
 }
 .analysis-text > .number-highlight {

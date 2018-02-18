@@ -882,6 +882,38 @@ a:hover, a:focus, a:active {
   content: "\00BB\0020";
 }
 
+#q01 .analysis-answer {
+  width: 13vw;
+}
+
+#q01 img {
+  height: 25vw;
+  width: 25vw;
+}
+
+@media screen and (max-width: 1366px) {
+  #q01 img {
+    max-height: 18rem !important;
+  }
+}
+
+#q01 .checkbox img {
+  height: 7vw;
+  width: 4vw;
+  margin-left: 0.1vw;
+}
+
+#q01 #mapphone {
+  height: 14vw;
+  width: 15vw;
+}
+
+#q01 .worldtv {
+  padding-top: 6rem;
+  max-width: 10vw;
+  max-height: 15vw;
+}
+
 .analysis-answer .analysis-text2 {
   padding-top: 15.7rem !important;
 }
@@ -910,12 +942,6 @@ a:hover, a:focus, a:active {
     left: -20rem;
     top: 96%;
   }
-}
-
-.worldtv {
-  padding-top: 6rem;
-  max-width: 60% !important;
-  max-height: 60% !important;
 }
 
 a {
@@ -1327,7 +1353,7 @@ a:hover, a:focus, a:active {
 }
 
 .analysis-answer {
-  margin-top: 14vh;
+  margin-top: 12vh;
   text-align: left;
   line-height: 1.2em;
   padding: 0;
@@ -1388,9 +1414,9 @@ a:hover, a:focus, a:active {
 }
 
 .analysis-text1:after {
-  width: 184%;
-  left: -12rem;
-  top: 12vmin;
+  width: 21vw;
+  left: 14vw;
+  top: 25vh;
   content: '';
   position: absolute;
   height: 1px;
@@ -1401,9 +1427,7 @@ a:hover, a:focus, a:active {
 
 @media screen and (max-width: 1366px) {
   .analysis-text1:after {
-    width: 180%;
-    left: -8rem;
-    top: 27%;
+    display: none;
   }
 }
 

@@ -1,5 +1,40 @@
 @import "../variables";
 
+#q01 {
+
+  .analysis-answer {
+    width: 13vw;
+  }
+
+  img {
+    height: 25vw;
+    width: 25vw;
+    //max-height: 50vh !important;
+    @media #{$information-laptop} {
+      max-height: 18rem !important;
+    }
+  }
+
+  .checkbox {
+    img {
+      height: 7vw;
+      width: 4vw;
+      margin-left: 0.1vw;
+    }
+  }
+
+  #mapphone {
+    height: 14vw;
+    width: 15vw;
+  }
+
+  .worldtv {
+    padding-top: 6rem;
+    max-width: 10vw;
+    max-height: 15vw;
+  }
+}
+
 .analysis-answer .analysis-text2 {
   padding-top: 15.7rem !important;
   @media #{$information-laptop} {
@@ -22,10 +57,4 @@
     left: -20rem;
     top: 96%;
   }
-}
-
-.worldtv {
-  padding-top: 6rem;
-  max-width: 60% !important;
-  max-height: 60% !important;
 }
