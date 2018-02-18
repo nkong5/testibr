@@ -1075,6 +1075,10 @@ a:hover, a:focus, a:active {
   width: 1px;
 }
 
+#q02 .chart-label {
+  font-size: 3vmin;
+}
+
 .icon-rounded {
   background: #DE3849;
   font-size: 25px;
@@ -1194,18 +1198,17 @@ a:hover, a:focus, a:active {
   content: "\00BB\0020";
 }
 
-#q03men {
-  margin-top: 11.5rem;
-}
-
 #q03 .ibr-rounded-secondary {
   -webkit-border-radius: 50% !important;
   -moz-border-radius: 50% !important;
   border-radius: 50% !important;
   background-color: #7DCDA5;
   color: #fff;
-  width: 30%;
-  font-size: 1.5em;
+  min-height: 32vmin;
+  min-width: 32vmin;
+  height: 32vmin;
+  width: 32vmin;
+  font-size: 3vmin;
   text-align: left;
   margin-top: 5%;
 }
@@ -1227,6 +1230,10 @@ a:hover, a:focus, a:active {
 #q03 .ibr-rounded-secondary:nth-child(4) {
   margin-top: 15%;
   margin-left: -2%;
+}
+
+#q03 #q03men {
+  margin-top: 11.5rem;
 }
 
 a {
