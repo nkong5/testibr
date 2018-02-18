@@ -8,6 +8,22 @@
     width: 11vmin;
     height: 11.5vmin;
   }
+
+  .analysis-number {
+    font-size: 2.7em;
+  }
+  .analysis-percent {
+    font-size: 2em;
+  }
+
+  hr {
+    border:none;
+    border-left:1vmin dotted $secondary;
+    color:#fff;
+    background-color: transparent;
+    height:25vh;
+    width:1px;
+  }
 }
 
 .icon-rounded {

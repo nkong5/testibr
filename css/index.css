@@ -516,6 +516,7 @@ body {
 
 section {
   margin-left: 0px !important;
+  overflow-y: hidden;
 }
 
 section:not(.category) {
@@ -581,15 +582,6 @@ img {
 .no-margins {
   margin: 0;
   padding: 0;
-}
-
-hr {
-  border: none;
-  border-left: 1vmin dotted #DE3849;
-  color: #fff;
-  background-color: transparent;
-  height: 60%;
-  width: 1px;
 }
 
 connection {
@@ -1064,6 +1056,23 @@ a:hover, a:focus, a:active {
 #q02 #business-man {
   width: 11vmin;
   height: 11.5vmin;
+}
+
+#q02 .analysis-number {
+  font-size: 2.7em;
+}
+
+#q02 .analysis-percent {
+  font-size: 2em;
+}
+
+#q02 hr {
+  border: none;
+  border-left: 1vmin dotted #DE3849;
+  color: #fff;
+  background-color: transparent;
+  height: 25vh;
+  width: 1px;
 }
 
 .icon-rounded {

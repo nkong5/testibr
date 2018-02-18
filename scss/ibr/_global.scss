@@ -16,6 +16,7 @@ body {
 
 section {
   margin-left: 0px !important;
+  overflow-y: hidden;
 }
 
 section:not(.category) {
@@ -81,15 +82,6 @@ img {
 .no-margins {
   margin: 0;
   padding: 0;
-}
-
-hr {
-  border:none;
-  border-left:1vmin dotted $secondary;
-  color:#fff;
-  background-color: transparent;
-  height:60%;
-  width:1px;
 }
 
 connection {
