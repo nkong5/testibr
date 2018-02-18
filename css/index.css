@@ -508,7 +508,6 @@ a:hover, a:focus, a:active {
 html {
   overflow-x: hidden !important;
   background-color: #cccccc;
-  font-size: 1.3vw;
 }
 
 body {
@@ -1335,9 +1334,10 @@ a:hover, a:focus, a:active {
 
 .question-container .title, .question-container .subtitle {
   font-size: 7vmin;
-  font-weight: lighter !important;
-  line-height: 7vmin !important;
-  margin-bottom: 7vmin !important;
+  font-weight: lighter;
+  line-height: 7vmin;
+  margin-bottom: 7vmin;
+  margin-top: 3vh;
 }
 
 #q01 .question-index, #q02 .question-index, #q04 .question-index,

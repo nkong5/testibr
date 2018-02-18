@@ -12,9 +12,10 @@
   $text-size: 7vmin;
   .title, .subtitle {
     font-size: $text-size;
-    font-weight: lighter !important;
-    line-height: $text-size !important;
-    margin-bottom: 7vmin !important;
+    font-weight: lighter;
+    line-height: $text-size;
+    margin-bottom: 7vmin;
+    margin-top: 3vh;
   }
 }
 

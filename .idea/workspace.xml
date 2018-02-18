@@ -17,12 +17,21 @@
       <file leaf-file-name="index.html" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="510">
               <caret line="250" column="12" lean-forward="true" selection-start-line="250" selection-start-column="12" selection-end-line="250" selection-end-column="12" />
+=======
+<<<<<<< Updated upstream
+            <state relative-caret-position="549">
+              <caret line="181" column="21" lean-forward="true" selection-start-line="181" selection-start-column="21" selection-end-line="181" selection-end-column="21" />
+=======
+            <state relative-caret-position="272">
+              <caret line="37" column="89" lean-forward="false" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="89" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#a#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#1;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#blockquote#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -64,8 +73,18 @@
       <file leaf-file-name="_questions.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/ibr/questions/_questions.scss">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="232">
               <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+=======
+<<<<<<< Updated upstream
+            <state relative-caret-position="184">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="19" />
+=======
+            <state relative-caret-position="238">
+              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -94,7 +113,20 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+      <find>list-group-submenu</find>
+      <find>none</find>
+      <find>sidebar-brand</find>
+      <find>color</find>
+      <find>bg</find>
+      <find>background</find>
+      <find>bg-default</find>
+>>>>>>> Stashed changes
       <find>primary</find>
+=======
+>>>>>>> Stashed changes
       <find>title</find>
       <find>homepa</find>
       <find>.container</find>
@@ -114,16 +146,28 @@
       <find>height</find>
       <find>14vh</find>
       <find>after</find>
+<<<<<<< Updated upstream
       <find>font</find>
       <find>question 02</find>
       <find>business-ma</find>
       <find>worldtv</find>
+=======
+      <find>worldtv</find>
+<<<<<<< Updated upstream
+      <find>font</find>
+=======
+>>>>>>> Stashed changes
       <find>business-man</find>
       <find>connec</find>
       <find>img</find>
       <find>margin</find>
       <find>icon-rounded</find>
       <find>analysis</find>
+<<<<<<< Updated upstream
+=======
+      <find>sideba</find>
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -184,8 +228,19 @@
         <option value="$PROJECT_DIR$/scss/template/_variables.scss" />
         <option value="$PROJECT_DIR$/scss/template/_footer.scss" />
         <option value="$PROJECT_DIR$/scss/ibr/questions/_question01.scss" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/scss/ibr/_variables.scss" />
         <option value="$PROJECT_DIR$/scss/ibr/questions/_question02.scss" />
+=======
+<<<<<<< Updated upstream
+=======
+        <option value="$PROJECT_DIR$/scss/ibr/_variables.scss" />
+        <option value="$PROJECT_DIR$/scss/ibr/questions/_question02.scss" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/scss/ibr/_global.scss" />
+        <option value="$PROJECT_DIR$/scss/ibr/questions/_questions.scss" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/scss/ibr/questions/_questions.scss" />
@@ -639,6 +694,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -647,6 +703,47 @@
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+=======
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/ibr/questions/_question02.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/ibr/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/ibr/questions/_questions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="37" column="89" lean-forward="false" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="89" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+>>>>>>> Stashed changes
             <element signature="n#li#1;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#blockquote#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
