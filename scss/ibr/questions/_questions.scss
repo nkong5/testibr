@@ -59,17 +59,17 @@
 }
 .analysis-number {
   color: $secondary;
-  font-size: 3.7rem;
+  font-size: 9vmin;
   font-weight: 600;
 }
 .analysis-number2 {
   color: $primary;
-  font-size: 3.7em;
+  font-size: 9vmin;
   font-weight: 600;
 }
 .analysis-number3 {
   color: $tertiary;
-  font-size: 3.7em;
+  font-size: 9vmin;
   font-weight: 600;
 }
 .analysis-percent {
@@ -80,12 +80,15 @@
 
 .analysis-number + .analysis-percent {
   color: $secondary;
+  font-size: 6vmin;
 }
 .analysis-number2 + .analysis-percent {
   color: $primary;
+  font-size: 6vmin;
 }
 .analysis-number3 + .analysis-percent {
   color: $tertiary;
+  font-size: 6vmin;
 }
 
 .barchart-value {

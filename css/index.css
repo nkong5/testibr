@@ -1309,7 +1309,7 @@ a:hover, a:focus, a:active {
   padding-top: 200%;
 }
 
-#q05 p {
+#q05 p:not(.title) {
   font-size: 1.2em;
 }
 
@@ -1387,7 +1387,7 @@ a:hover, a:focus, a:active {
 }
 
 .question13 .analysis-answer {
-  margin-top: 13.5rem;
+  margin-top: 13.5vh;
 }
 
 .question-container {
@@ -1437,19 +1437,19 @@ a:hover, a:focus, a:active {
 
 .analysis-number {
   color: #DE3849;
-  font-size: 3.7rem;
+  font-size: 9vmin;
   font-weight: 600;
 }
 
 .analysis-number2 {
   color: #7DCDA5;
-  font-size: 3.7em;
+  font-size: 9vmin;
   font-weight: 600;
 }
 
 .analysis-number3 {
   color: #73818A;
-  font-size: 3.7em;
+  font-size: 9vmin;
   font-weight: 600;
 }
 
@@ -1461,14 +1461,17 @@ a:hover, a:focus, a:active {
 
 .analysis-number + .analysis-percent {
   color: #DE3849;
+  font-size: 6vmin;
 }
 
 .analysis-number2 + .analysis-percent {
   color: #7DCDA5;
+  font-size: 6vmin;
 }
 
 .analysis-number3 + .analysis-percent {
   color: #73818A;
+  font-size: 6vmin;
 }
 
 .barchart-value {
