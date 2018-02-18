@@ -16,6 +16,9 @@
     line-height: $text-size;
     margin-bottom: 7vmin;
     margin-top: 3vh;
+    @media screen and (orientation:landscape) {
+      //max-width: 50vw;
+    }
   }
 }
 
