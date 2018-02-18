@@ -1,0 +1,35 @@
+@import "variables";
+
+.homepage {
+  $text-size: 7vmin;
+  //padding-top: 10rem;
+  font-size: $text-size;
+
+  min-height: 100vh;
+  //@media #{$information-laptop} {
+  //  padding-top: 5rem;
+  //  font-size: $text-size !important;
+  //}
+
+  .title, .subtitle {
+    font-size: $text-size !important;
+    font-weight: 100 !important;
+    line-height: $text-size !important;
+    margin-bottom: 2*$text-size;
+  }
+
+  img {
+    height: 33vh*(647/433) !important;
+    width: 33vh !important;
+    margin-right: 10vw;
+    //@media #{$information-laptop} {
+    //  max-height: 18rem !important;
+    //}
+  }
+
+  .btn {
+    $text-size: $text-size/4;
+    font-size: $text-size !important;
+    //margin-top: 10 * $text-size;
+  }
+}

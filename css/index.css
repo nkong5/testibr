@@ -562,35 +562,6 @@ section:not(.homepage):nth-child(odd) {
   padding: 1rem 0;
 }
 
-.homepage {
-  padding-top: 10rem;
-  font-size: 7vmin;
-  height: 100vh;
-}
-
-@media screen and (max-width: 1366px) {
-  .homepage {
-    padding-top: 5rem;
-    font-size: 7vmin !important;
-  }
-}
-
-.homepage .title, .homepage .subtitle {
-  font-size: 7vmin !important;
-  font-weight: 100 !important;
-  line-height: 7vmin !important;
-  margin-bottom: 14vmin;
-}
-
-.homepage img {
-  height: 49.30947vh !important;
-  width: 33vh !important;
-}
-
-.homepage .btn {
-  font-size: 1.75vmin !important;
-}
-
 .checkbox {
   padding-top: 3.5rem;
 }
@@ -657,6 +628,91 @@ blockquote p {
 
 .vw10 {
   width: 10vw;
+}
+
+a {
+  color: #3b4449;
+}
+
+a:hover, a:focus, a:active {
+  color: #242a2d;
+}
+
+.btn-primary {
+  background-color: #73818A !important;
+  border-color: #73818A !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #5c676e !important;
+  border-color: #5c676e !important;
+}
+
+.btn-secondary {
+  background-color: #DE3849 !important;
+  border-color: #DE3849 !important;
+  color: #fff !important;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: #c32031 !important;
+  border-color: #c32031 !important;
+}
+
+.btn-dark {
+  color: #fff !important;
+}
+
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+}
+
+.bg-primary {
+  background-color: #7DCDA5 !important;
+}
+
+.text-primary {
+  color: #7DCDA5 !important;
+}
+
+.text-secondary {
+  color: #DE3849 !important;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.list-group-submenu {
+  padding-left: 2rem;
+}
+
+.list-group-submenu a:before {
+  content: "\00BB\0020";
+}
+
+.homepage {
+  font-size: 7vmin;
+  min-height: 100vh;
+}
+
+.homepage .title, .homepage .subtitle {
+  font-size: 7vmin !important;
+  font-weight: 100 !important;
+  line-height: 7vmin !important;
+  margin-bottom: 14vmin;
+}
+
+.homepage img {
+  height: 49.30947vh !important;
+  width: 33vh !important;
+  margin-right: 10vw;
+}
+
+.homepage .btn {
+  font-size: 1.75vmin !important;
 }
 
 a {
