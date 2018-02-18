@@ -3,6 +3,14 @@
   "use strict"; // Start of use strict
 
   $(document).ready(function () {
+    alignElements();
+  });
+
+  $(window).on('resize', function(){
+    alignElements();
+  });
+
+  function alignElements() {
     var q02_diag01 = $('#q02_diag01');
     var q02_diag02 = $('#q02_diag02');
     var q02_diag03 = $('#q02_diag03');
@@ -15,7 +23,7 @@
     connect();
 
     roundElements();
-  });
+  }
 
   function roundElements() {
     $('.ibr-rounded-secondary').each(function () {
@@ -44,7 +52,9 @@
     var marginTop = (referenceElement.height() * referenceRatio);
     if(addMargins) {
       var text = parentReferenceElement.children('.analysis-answer').first();
-      marginTop += getNumberOfPixels(text, 'padding-top');
+      marginTop += getNumberOfPixels(text, 'padding-top') - 5;
+    } else {
+      marginTop += 10;
     }
 
     var text = parent.children('.analysis-answer').first();

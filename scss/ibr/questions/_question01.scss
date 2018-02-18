@@ -29,7 +29,10 @@
   }
 
   .worldtv {
-    padding-top: 6rem;
+    @media screen and (orientation:landscape) {
+      padding-top: 6rem;
+      margin-top: 6rem;
+    }
     max-width: 10vw;
     max-height: 15vw;
   }
