@@ -271,3 +271,43 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 	.Section_T2G6 .El_SVG { width:100%; float:none;}
 	.Section_T2G6 h2 {margin-bottom:0; width:100%; }
 }
+/* T3G1 */
+.Section_T3G1 { background:#E5E5E5; }
+.Section_T3G1 h2 { text-align:center; margin:0 auto; margin-bottom:3.5vw; width:50vw;}
+.Section_T3G1 .Graph { position:relative; padding-left:20vw; }
+.Section_T3G1 .El_SVG { float:right; width:47vw; }
+@media (max-width:744px) and (max-aspect-ratio: 3/2) { 
+	.Section_T3G1 .Graph { padding-left:0; }
+	.Section_T3G1 .El_SVG { width:100%; float:none;}
+	.Section_T3G1 h2 {margin-bottom:0; width:100%; }
+}
+/* T3G2 */
+.Section_T3G2 { background:#D0D1D1; }
+.Section_T3G2 h2 { text-align:center; margin:0 auto; margin-bottom:3.5vw; width:50vw;}
+.Section_T3G2 .Graph { position:relative; padding-left:20vw; }
+.Section_T3G2 .El_SVG { float:right; width:47vw; }
+@media (max-width:744px) and (max-aspect-ratio: 3/2) { 
+	.Section_T3G2 .Graph { padding-left:0; }
+	.Section_T3G2 .El_SVG { width:100%; float:none;}
+	.Section_T3G2 h2 {margin-bottom:0; width:100%; }
+}
+/* T3G3 */
+.Section_T3G3 { background:#E5E5E5; }
+.Section_T3G3 h2 { text-align:center; margin:0 auto; margin-bottom:3.5vw; width:50vw;}
+.Section_T3G3 .Graph { position:relative; padding-left:20vw; }
+.Section_T3G3 .El_SVG { float:right; width:47vw; }
+@media (max-width:744px) and (max-aspect-ratio: 3/2) { 
+	.Section_T3G3 .Graph { padding-left:0; }
+	.Section_T3G3 .El_SVG { width:100%; float:none;}
+	.Section_T3G3 h2 {margin-bottom:0; width:100%; }
+}
+/* T3G4 */
+.Section_T3G4 { background:#D0D1D1; }
+.Section_T3G4 h2 { text-align:center; margin:0 auto; margin-bottom:3.5vw; width:50vw;}
+.Section_T3G4 .Graph { position:relative; padding-left:20vw; }
+.Section_T3G4 .El_SVG { float:right; width:40vw; }
+@media (max-width:744px) and (max-aspect-ratio: 3/2) { 
+	.Section_T3G4 .Graph { padding-left:0; }
+	.Section_T3G4 .El_SVG { width:100%; float:none;}
+	.Section_T3G4 h2 {margin-bottom:0; width:100%; }
+}
