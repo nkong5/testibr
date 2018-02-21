@@ -55,7 +55,6 @@ jQuery(function($) {
 				var Progress = (X-C+S) / (C+F);
 				if (Progress < 0) { Progress = 0; }
 				if (Progress > 1) { Progress = 1; }
-				console.log(Progress);
 				if (It.attr("data-activephoto") == "movesmall") { 
 					Progress = Progress * (ContainerHeight * 0.2);
 					It.css("transform","translateY(" + Progress + "px)");
@@ -105,9 +104,32 @@ jQuery(function($) {
 	}
 	
 	function Menu() {
+
 		$("#mainHeaderBurgerBtn").click(function() { $("#mainHeaderOverlayMenu, #mainHeaderBurgerBtn").addClass("Active"); return false; });
 		$("#mainHeaderOverlayMenuClose").click(function() { $("#mainHeaderOverlayMenu, #mainHeaderBurgerBtn").removeClass("Active"); return false; });
-		$("#mainHeaderOverlayMenu").on("click","a", function() { $("#mainHeaderOverlayMenu, #mainHeaderBurgerBtn").removeClass("Active"); });
+		$("#mainHeaderOverlayMenu").on("click","a", function() { 
+			if ($(this).parent("[data-accordion]").length) { 
+				if ($(this).next().css("display") == "block") {
+					$("#mainHeaderOverlayMenu, #mainHeaderBurgerBtn").removeClass("Active"); 
+					return true;
+				} else {
+					return true; 
+				}
+			}
+			$("#mainHeaderOverlayMenu, #mainHeaderBurgerBtn").removeClass("Active"); 
+			return true;
+		});
+		$("#mainHeaderOverlayMenu li[data-accordion] > ul").slideUp(0);
+		$("#mainHeaderOverlayMenu").on("click", "li[data-accordion] > a", function() { 
+			var $Next = $(this).next();
+			if ($Next.css("display") == "none") {
+				$("#mainHeaderOverlayMenu li[data-accordion] > ul").not($Next).slideUp(1000);
+				$Next.slideDown(1000);
+				return false;
+			} else {
+				return true;
+			}
+		});
 		$(window).scroll(function () {
 			if ($(window).scrollTop() > 50) {
 			   $("body").addClass('AfterScroll');
@@ -115,6 +137,7 @@ jQuery(function($) {
 			   $("body").removeClass('AfterScroll');
 			}
 		});
+
 	}
 	
 	
