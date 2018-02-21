@@ -8,29 +8,54 @@ jQuery(function($) {
 		
 	var ScrollBar;
 		
+	Reveal();
 	Preloader();
-		
+	LoadGraphs();
+	Menu();
+	InternalScroll();
+	ActivePhoto();
+
+	function LoadGraphs() {
+		$("[data-svgsrc]").each(function() {
+			var $It = $(this);
+			$.get($It.attr("data-svgsrc"), function(Data) {
+				$It.html(Data);
+				setTimeout(function() { $It.removeClass("Grayscale"); }, 1000);
+				$It.animate({opacity:1}, 1500);
+			},'text');
+		});
+	}
+	function Reveal() {
+		window.sr = ScrollReveal({viewFactor: 0.5, opacity:1, scale:1, distance:0,duration: 1000});
+		sr.reveal("[data-reveal='Classic']", { opacity:0 });
+		sr.reveal(".Section", { viewFactor: 0.65, reset:true, beforeReveal: function (El) { $(El).addClass("Seen"); $(El).addClass("Revealed"); }, beforeReset: function (El) {  $(El).removeClass("Revealed"); }});
+	}
+
 	function ActivePhoto() { 
+		var $Window = $(window);
+
 		$("[data-activephoto]").each(function() {
 			var It = $(this);
 			var Image = It.children("[data-activephoto-child]");
 			
-			ScrollBar.addListener(_Parallax);
-			_Parallax();
+			$Window.on('scroll resize', _Parallax);
+			
 			
 			function _Parallax() {
 				var ContainerHeight = It.height();
 					
+				var X = window.pageYOffset || document.documentElement.scrollTop;
 				var A = ContainerHeight;
-				var F = - It.height();
-				var S = $(window).height();
+				var F = It.height();
+				var S = $Window.height();
 				var C = It.offset().top;
 				var I = Image.height();
+				var B = $Body.scrollTop;
 					
-				var Progress = -((C - S) / (S - F));
+				var Progress = (X-C+S) / (C+F);
 				if (Progress < 0) { Progress = 0; }
 				if (Progress > 1) { Progress = 1; }
-					
+				console.log(Progress);
 				if (It.attr("data-activephoto") == "movesmall") { 
 					Progress = Progress * (ContainerHeight * 0.2);
 					It.css("transform","translateY(" + Progress + "px)");
@@ -42,7 +67,7 @@ jQuery(function($) {
 					return;
 				}
 				if (It.attr("data-activephoto") == "ins" ) { 
-					Progress = Progress * ((A - I) / 2);
+					Progress = Progress * ((A - I) / 1.5);
 					Image.css("transform","translateY(" + Progress + "px)");
 					return;
 				}
@@ -56,20 +81,20 @@ jQuery(function($) {
 			
 			if (Link.charAt(0) == "#") {
 				if (Link == "#") {
-					ScrollBar.scrollTo(0, 0, 1000);
+					$('html, body').animate({ scrollTop: 0 }, 1000);
 					return false;
 				} else { 
-					if ($(Link).length) { ScrollBar.scrollIntoView($(Link)[0]); }
+					if ($(Link).length) { $('html, body').animate({ scrollTop: $(Link)[0].offsetTop }, 1000); }
 					return false;
 				}
 			}
 			if (Link.split("#")[0] == window.location.origin + window.location.pathname) 
 			{ 
 				if (!Link.split("#")[1].length) {
-					ScrollBar.scrollTo(0,0, 1000);
+					$('html, body').animate({ scrollTop: 0 }, 1000);
 					return false;
 				} else {
-					if ($("#" + Link.split("#")[1]).length) { ScrollBar.scrollIntoView($("#" + Link.split("#")[1])[0]); }
+					if ($("#" + Link.split("#")[1]).length) { $('html, body').animate({ scrollTop: $("#" + Link.split("#")[1])[0].offsetTop }, 1000); }
 					return false;
 				}
 			}
@@ -84,75 +109,27 @@ jQuery(function($) {
 		$("#mainHeaderOverlayMenuClose").click(function() { $("#mainHeaderOverlayMenu, #mainHeaderBurgerBtn").removeClass("Active"); return false; });
 		$("#mainHeaderOverlayMenu").on("click","a", function() { $("#mainHeaderOverlayMenu, #mainHeaderBurgerBtn").removeClass("Active"); });
 		$(window).scroll(function () {
-			if ($(window).scrollTop() > 140) {
-			   $("#mainHeader").addClass('mainHeader_AfterScroll');
+			if ($(window).scrollTop() > 50) {
+			   $("body").addClass('AfterScroll');
 			} else {
-			   $("#mainHeader").removeClass('mainHeader_AfterScroll');
+			   $("body").removeClass('AfterScroll');
 			}
 		});
-	}
-	
-	function ScrollBar() {				
-		ScrollBar = Scrollbar.init($("[data-scrollbar]").eq(0)[0], { overscrollEffect: 'bounce' });
-
-		ScrollBar.addListener(_onScroll); 
-		_onScroll();
 	}
 	
 	
 	function Preloader() {
-		var Element = $("#Preloader");
+		var $Element = $("#Preloader");
 		
 
 		$(window).load(function() {
-			ScrollBar();
-			Menu();
-			InternalScroll();
-			ActivePhoto();
 			
 			$("#mainHeader").css('transition','.3s all ease-in-out');
 			$("#mainContent").focus();
 			
-			if (window.location.hash) {
-				if ($(window.location.hash).length) { setTimeout(function() { ScrollBar.scrollIntoView($(window.location.hash)[0]); }, 10); }
-			}
 			
-			_onScroll();
-			Element.animate({opacity:0}, 600, function() {
-				_onScroll();
-				$("#mainContent").focus();
-				Element.remove();
-			});
+			$Element.animate({opacity:0}, 600, function() { $Element.remove(); });
 		});
 		
-	}
-	function _onScroll() { 
-		if (ScrollBar.offset.y > 50 && !$Body.hasClass("AfterScroll")) { $Body.addClass('AfterScroll'); }
-		if (ScrollBar.offset.y < 50 && $Body.hasClass("AfterScroll")) {  $Body.removeClass('AfterScroll'); }
-			
-		if (ScrollBar.offset.y > ScrollBar.limit.y - ($Body.width() / 4) && !$Body.hasClass("NearBottom")) { $Body.addClass('NearBottom'); }
-		if (ScrollBar.offset.y < ScrollBar.limit.y - ($Body.width() / 4) && $Body.hasClass("NearBottom")) { $Body.removeClass('NearBottom'); }
-			
-		$.each($RevealList, function(Key, Value) {
-			if (ScrollBar.isVisible($(Value)[0])) {
-				$(Value).addClass("Visible");
-			}
-		});
-		$.each($Sections, function(Key, Value) {
-			if (ScrollBar.isVisible($(Value)[0])) {
-				if ($(Value).attr("data-revealed") != "true") {
-					$(Value).attr("data-revealed","true");
-					$(Value).find("[data-svgsrc]").each(function() {
-						var $It = $(this);
-						$It.css("opacity","0");
-						$.get($It.attr("data-svgsrc"), function(Data) {
-							$It.html(Data);
-							setTimeout(function() { $It.removeClass("Grayscale"); }, 1000);
-							$It.animate({opacity:1}, 1500);
-						},'text');
-					});
-				}
-			}
-		});
 	}
 });
