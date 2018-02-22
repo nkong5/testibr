@@ -20,8 +20,7 @@ jQuery(function($) {
 			var $It = $(this);
 			$.get($It.attr("data-svgsrc"), function(Data) {
 				$It.html(Data);
-				setTimeout(function() { $It.removeClass("Grayscale"); }, 1000);
-				$It.animate({opacity:1}, 1500);
+				setTimeout(function() { $It.parent().parent().parent().addClass("Loaded"); }, 10);
 			},'text');
 		});
 	}
