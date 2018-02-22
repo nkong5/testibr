@@ -312,3 +312,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 	.Section_T3G4 .El_SVG { width:100%; float:none;}
 	.Section_T3G4 h2 {margin-bottom:0; width:100%; }
 }
+/* T4 */
+.Section_T4 { background:#E5E5E5; }
+.Section_T4 h2 { text-align:center; margin:0 auto; margin-bottom:3.5vw; width:50vw;}
+.Section_T4 .Graph { position:relative; }
+.Section_T4 .El_SVG { margin:0 auto; width:50vw; }
+@media (max-width:744px) and (max-aspect-ratio: 3/2) { 
+	.Section_T4 .Graph { padding-left:0; }
+	.Section_T4 .El_SVG { width:100%; float:none;}
+	.Section_T4 h2 {margin-bottom:0; width:100%; }
+}
+/* T5 */
+.Section_T5 { background:#D0D1D1; }
+.Section_T5 h2 { text-align:center; margin:0 auto; margin-bottom:3.5vw; width:50vw;}
+.Section_T5 .Graph { width:61vw; position:relative; text-align:center; }
+.Section_T5 .El_SVG { width:19vw; display:inline-block; }
+@media (max-width:744px) and (max-aspect-ratio: 3/2) { 
+	.Section_T5 .Graph { padding-left:0; width:100%; }
+	.Section_T5 .El_SVG { width:100%; float:none;}
+	.Section_T5 h2 {margin-bottom:0; width:100%; }
+}
