@@ -14,13 +14,52 @@ jQuery(function($) {
 	Menu();
 	InternalScroll();
 	ActivePhoto();
+	IESVGFix();
 
+	function detectIE() {
+		var ua = window.navigator.userAgent;
+	
+		var msie = ua.indexOf('MSIE ');
+		if (msie > 0) {
+			return true;
+		}
+	
+		var trident = ua.indexOf('Trident/');
+		if (trident > 0) {
+			return true;
+		}
+		return false;
+	}
+
+	function IESVGFix() {
+		if (!detectIE()) { return false; } 
+		$(window).on("resize", function() { 
+			$("svg").each(function() {
+				SingleIESVGFix($(this).parent());
+			});
+		});
+	}
+	function SingleIESVGFix($It) { 
+		if (!detectIE()) { return false; }
+		if ($It) {
+			$It.children('svg').each(function() {
+				var $Svg = $(this);
+				var Viewbox = $Svg.attr("data-viewBox");
+				Viewbox = Viewbox.split(" ");
+				var Aspect = (Viewbox[3] - Viewbox[1]) / (Viewbox[2] - Viewbox[0]) ;
+				$(this).height(Aspect * $(this).width());
+			});
+		}
+	}
 	function LoadGraphs() {
 		$("[data-svgsrc]").each(function() {
 			var $It = $(this);
 			$.get($It.attr("data-svgsrc"), function(Data) {
 				$It.html(Data);
-				setTimeout(function() { $It.parent().parent().parent().addClass("Loaded"); }, 10);
+				setTimeout(function() { 
+					$It.parent().parent().parent().addClass("Loaded");
+					SingleIESVGFix($It);
+				}, 10);
 			},'text');
 		});
 	}

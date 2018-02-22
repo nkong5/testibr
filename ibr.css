@@ -11,14 +11,13 @@ h2 { font-family: 'Source Sans Pro', sans-serif; font-weight:300;  font-size:3.5
 	h2 { font-size:6vw; line-height:7vw;}
 }
 b, strong { font-weight:700; }
-
-
+svg { display:block; max-height:1000vw; width:100%; height:auto; }
 
 /* Header */
 .mainHeader { position:fixed; top:0; left:0; width:100%; z-index:99; height:6w; padding:3.5vw 0; overflow:hidden; box-sizing:border-box; pointer-events:none;}
 .mainHeaderWrapper { height:100%; position:relative;  box-sizing:border-box; padding:0 4vw; margin:0 auto;}
 .mainHeaderLogo { height:100%; display:block; float:left; position:relative; }
-.mainHeaderLogo img { display:block; transition:.3s opacity ease-in-out; height:100%;  }
+.mainHeaderLogo img { display:block; transition:.3s opacity ease-in-out; }
 .mainHeaderLogoImgWhite { opacity:1; position:absolute; top:0;left:0; }
 .mainHeaderLogoImgDark { opacity:0; }
 
@@ -145,7 +144,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 /* Intro */
 .Section_Intro { white-space:nowrap; background:#e7e7e7; min-height:40vw; }
-.Section_Intro .Logo { vertical-align:middle; width:13vw; display:inline-block;}
+.Section_Intro .Logo { vertical-align:middle; width:13vw; display:inline-block; max-height:100%;}
 .Section_Intro .Content { margin-left:5vw; vertical-align:middle; display:inline-block; width:43vw; }
 .Section_Intro .Content h1 {white-space:normal; margin-bottom:5.8vw; margin-top:0; position:relative; bottom:1vw;}
 @media (max-width:744px) and (max-aspect-ratio: 3/2) { 
