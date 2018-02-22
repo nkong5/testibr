@@ -122,8 +122,8 @@ jQuery(function($) {
 		$("#mainHeaderOverlayMenu").on("click", "li[data-accordion] > a", function() { 
 			var $Next = $(this).next();
 			if ($Next.css("display") == "none") {
-				$("#mainHeaderOverlayMenu li[data-accordion] > ul").not($Next).slideUp(1000);
-				$Next.slideDown(1000);
+				$("#mainHeaderOverlayMenu li[data-accordion] > ul").not($Next).slideUp(500);
+				$Next.slideDown(500);
 				return false;
 			} else {
 				return true;
