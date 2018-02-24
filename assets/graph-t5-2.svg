@@ -15,7 +15,10 @@
 	#SVG_T5-2 .st11{fill:#AAE2C5;}
 	#SVG_T5-2 .st12{fill:#73818A;}
 </style>
-<g>
+<g class="anim0">
+	<text transform="matrix(1 0 0 1 87.0815 21.3749)" class="st0 st1 st4">Ethnicity</text>
+</g>
+<g class="anim2">
 	<text transform="matrix(1 0 0 1 60.5806 62.4544)" class="st5 st1 st6">6</text>
 	<text transform="matrix(1 0 0 1 73.1523 56.1288)" class="st5 st7 st8">%</text>
 	<text transform="matrix(1 0 0 1 60.5693 75.7865)" class="st3 st1 st2">Gilak/Maza</text>
@@ -35,7 +38,8 @@
 	<text transform="matrix(1 0 0 1 49.73 266.9266)" class="st5 st1 st6">17</text>
 	<text transform="matrix(1 0 0 1 69.5063 260.6073)" class="st5 st7 st8">%</text>
 	<text transform="matrix(1 0 0 1 49.7095 279.6561)" class="st0 st1 st2">Turk</text>
-	<text transform="matrix(1 0 0 1 87.0815 21.3749)" class="st0 st1 st4">Ethnicity</text>
+</g>
+<g class="anim1">
 	<path class="st5" d="M145.6,81.4c50.1,0,90.7,40.6,90.7,90.7s-40.6,90.7-90.7,90.7c-6.3,0-12.5-0.7-18.7-1.9
 		l18.7-88.8V81.4z"/>
 	<path class="st9" d="M126.9,260.9c-31.6-6.6-57.3-29.6-67.4-60.2l86.1-28.6L126.9,260.9z"/>

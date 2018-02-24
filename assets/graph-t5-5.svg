@@ -18,7 +18,10 @@
 	#SVG_T5-5 .st14{fill:#747f89;}
 	#SVG_T5-5 .st15{fill:#9cb3c7;}
 </style>
-<g>
+<g class="anim0">
+	<text transform="matrix(1 0 0 1 21.4231 21.3749)" class="st12 st1 st13">Occupational status</text>
+</g>
+<g class="anim2">
 	<text transform="matrix(1 0 0 1 76.8015 61.1561)" class="st3 st1 st4">9</text>
 	<text transform="matrix(1 0 0 1 89.3752 54.8378)" class="st3 st5 st6">%</text>
 	<text transform="matrix(1 0 0 1 76.7825 75.0849)" class="st0 st1 st2">Student</text>
@@ -42,6 +45,8 @@
 	<text transform="matrix(1 0 0 1 237.0818 252.0761)" class="st3 st5 st6">%</text>
 	<text transform="matrix(1 0 0 1 212.6628 271.4344)" class="st0 st1 st2">Employed </text>
 	<text transform="matrix(1 0 0 1 212.6628 283.4344)" class="st0 st1 st2">Full-time</text>
+</g>
+<g class="anim1">
 	<path class="st3" d="M147.9,87.2c47,0,85.1,38.1,85.1,85.1c0,5.6-0.5,11.2-1.6,16.6l-20.9-4.2
 		c6.9-34.6-15.6-68.2-50.2-75.1c-4.1-0.8-8.3-1.2-12.5-1.2V87.2z"/>
 	<path class="st9" d="M231.4,189c-9.2,46.1-54,76.1-100.1,66.9c-2.3-0.5-4.6-1-6.9-1.7l5.9-20.5
@@ -52,6 +57,5 @@
 	<path class="st0" d="M67.2,145.1c5.4-16,15.5-30.1,28.9-40.3l13,16.9c-10.1,7.7-17.6,18.2-21.6,30.3L67.2,145.1z"/>
 	<path class="st14" d="M96.1,104.8c13-10,28.5-16,44.8-17.3l1.7,21.2c-12.2,1-23.9,5.5-33.6,13L96.1,104.8z"/>
 	<path class="st15" d="M140.9,87.5c2.3-0.2,4.6-0.3,7-0.3v21.3c-1.7,0-3.5,0.1-5.2,0.2L140.9,87.5z"/>
-	<text transform="matrix(1 0 0 1 21.4231 21.3749)" class="st12 st1 st13">Occupational status</text>
 </g>
 </svg>
