@@ -71,11 +71,20 @@ jQuery(function($) {
 			viewFactor: 0.65, 
 			reset:true, 
 			beforeReveal: function (El) { 
+				$(El).addClass("Revealed"); 
+				if (!$(El).hasClass("Loaded")) { 
+					setTimeout(function() {					
+						if (!$(El).hasClass("Seen")) { 
+							$(El).find("svg").each(_revealAnim);
+							$(El).addClass("Seen");
+						}
+					}, 400);
+					return false;
+				}
 				if (!$(El).hasClass("Seen")) { 
 					$(El).find("svg").each(_revealAnim);
 					$(El).addClass("Seen");
 				}
-				$(El).addClass("Revealed"); 
 			}, 
 			beforeReset: function (El) {  
 				$(El).removeClass("Revealed"); 
@@ -806,7 +815,9 @@ jQuery(function($) {
 			$("#mainContent").focus();
 			
 			
-			$Element.animate({opacity:0}, 600, function() { $Element.remove(); });
+			setTimeout(function() {
+				$Element.animate({opacity:0}, 600, function() { $Element.remove(); });
+			}, 200);
 		});
 		
 	}
