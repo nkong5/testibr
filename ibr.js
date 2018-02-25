@@ -8,6 +8,7 @@ jQuery(function($) {
 		
 	var ScrollBar;
 		
+	Introduction();
 	LoadGraphs();
 	Reveal();
 	Preloader();
@@ -15,6 +16,11 @@ jQuery(function($) {
 	InternalScroll();
 	ActivePhoto();
 	IESVGFix();
+
+	function Introduction() {
+		$('[data-introduction]').on('click', function() { $("body").addClass("IntroductionActive"); });
+		$('[data-closeintroduction]').on('click', function() { $("body").removeClass("IntroductionActive"); return false; });
+	}
 
 	function detectIE() {
 		var ua = window.navigator.userAgent;
