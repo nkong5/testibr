@@ -137,16 +137,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .Section:not(.Revealed) .El_SVG { filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); filter: gray; -webkit-filter: grayscale(100%); }
 
 /* Introduction */
-.Introduction { color:#FFF; background:#3D3F41; position:fixed; top:0; left:0; width:100%; height:100%; z-index:9999; overflow:auto; transform:translate3d(100%,0,0); transition:1s transform ease-in-out; }
+.Introduction { color:#FFF; background:#3D3F41; position:fixed; top:0; left:0; width:100%; height:100%; z-index:9999;transform:translate3d(100%,0,0); transition:1s transform ease-in-out; }
 .Introduction h2 { color:#FFF; margin-bottom:5vw;}
-.Introduction .Wrapper { width:60%; margin:0 auto; padding:5vw 0; opacity:0; transition:.5s opacity ease-in-out; }
+.Introduction .Wrapper { width:100%; height:100%; opacity:0; transition:.5s opacity ease-in-out;  overflow:auto; }
+.Introduction .Content { width:60%; margin:0 auto; padding:5vw 0; }
 .Introduction .Button { margin:3vw 0; }
+.Introduction::before { transition-delay:0; opacity:0; transition:.5s opacity ease-in-out; z-index:-1; content:' '; display:block; position:absolute; top:0; left:0; width:100%; height:100%;  background:url('assets/bg.jpg') center center no-repeat; background-size:cover; }
 body.IntroductionActive { overflow:hidden; }
 body.IntroductionActive .Introduction { transform:translate3d(0,0,0); }
 body.IntroductionActive .Introduction .Wrapper { opacity:1; transition-delay:1s; }
+body.IntroductionActive .Introduction::before { opacity:0.1; transition-delay:1s; }
+
+.Introduction_Close { transition: .3s all ease-in-out; color: #FFF; position: absolute; top: 2vw; right:2.5vw; width: 3.5vw; height: 3vw; }
+.Introduction_Close::after { content: ' '; display: block; width: 100%; height: 1px; border-bottom: 2px solid #FFF; transform: rotate(45deg); position: absolute; left: 0; top: 50%; }
+.Introduction_Close::before { content: ' '; display: block; width: 100%; height: 1px; border-bottom: 2px solid #FFF; transform: rotate(-45deg); position: absolute; left: 0; top: 50%; }
+.Introduction_Close:hover::after { animation: CloseBong .8s 1 cubic-bezier(0.450,-0.38,0.000,1.170); }
+.Introduction_Close:hover::before { animation: CloseBong2 .8s 1 cubic-bezier(0.450,-0.38,0.000,1.170); }
+@keyframes CloseBong { 0% { transform: rotate(45deg); } 25% { transform: rotate(35deg); } 100% { transform: rotate(45deg); } }
+@keyframes CloseBong2 {	0% { transform: rotate(-45deg); } 25% { transform: rotate(-35deg); } 100% { transform: rotate(-45deg); } }
 @media (max-width:744px) and (max-aspect-ratio: 3/2) {
-	.Introduction .Wrapper {  width:85%; } 
+	.Introduction .Content {  width:85%; } 
 	.Introduction .Button { margin:9vw 0; }
+	.Introduction_Close { width:9vw; height:9vw; top:4vw; right:4vw;}
 }
 
 /* Sections */
@@ -157,6 +169,7 @@ body.IntroductionActive .Introduction .Wrapper { opacity:1; transition-delay:1s;
 
 /* Intro */
 .Section_Intro { white-space:nowrap; background:#e7e7e7; min-height:40vw; }
+.Section_Intro::before { content:' '; display:block; position:absolute; top:0; left:0; width:100%; height:100%; opacity:0.15; background:url('assets/bg.jpg') center center no-repeat; background-size:cover; }
 .Section_Intro .Logo { vertical-align:middle; width:13vw; display:inline-block; max-height:100%;}
 .Section_Intro .Content { margin-left:5vw; vertical-align:middle; display:inline-block; width:43vw; }
 .Section_Intro .Content h1 {white-space:normal; margin-bottom:5.8vw; margin-top:0; position:relative; bottom:1vw;}
