@@ -276,9 +276,9 @@ jQuery(function($) {
 				SVG.select("#SVG_T3G3 .anim1-0").opacity(0);
 				SVG.select("#SVG_T3G3 .anim2-0").opacity(0);
 				SVG.select("#SVG_T3G3 .anim3-0").opacity(0);
-				SVG.select("#SVG_T3G3 .anim1-1").transform({ scaleY: 0.00001, cy:451.3 });
-				SVG.select("#SVG_T3G3 .anim2-1").transform({ scaleY: 0.00001, cy:451.3 });
-				SVG.select("#SVG_T3G3 .anim3-1").transform({ scaleY: 0.00001, cy:451.3 });
+				SVG.select("#SVG_T3G3 .anim1-1").transform({ scaleY: 0.00001, cy:421.3 });
+				SVG.select("#SVG_T3G3 .anim2-1").transform({ scaleY: 0.00001, cy:421.3 });
+				SVG.select("#SVG_T3G3 .anim3-1").transform({ scaleY: 0.00001, cy:421.3 });
 				SVG.select("#SVG_T3G3 .anim1-2").opacity(0);
 				SVG.select("#SVG_T3G3 .anim2-2").opacity(0);
 				SVG.select("#SVG_T3G3 .anim3-2").opacity(0);
@@ -579,9 +579,9 @@ jQuery(function($) {
 				SVG.select("#SVG_T3G3 .anim1-0").animate(500, '<>', 0).opacity(1);
 				SVG.select("#SVG_T3G3 .anim2-0").animate(500, '<>', 200).opacity(1);
 				SVG.select("#SVG_T3G3 .anim3-0").animate(500, '<>', 400).opacity(1);
-				SVG.select("#SVG_T3G3 .anim1-1").animate(1000, '<>', 0).transform({ scaleY: 1, cy:454.4 });
-				SVG.select("#SVG_T3G3 .anim2-1").animate(1000, '<>', 300).transform({ scaleY: 1, cy:454.4 });
-				SVG.select("#SVG_T3G3 .anim3-1").animate(1000, '<>', 600).transform({ scaleY: 1, cy:454.4 });
+				SVG.select("#SVG_T3G3 .anim1-1").animate(1000, '<>', 0).transform({ scaleY: 1, cy:421.3 });
+				SVG.select("#SVG_T3G3 .anim2-1").animate(1000, '<>', 300).transform({ scaleY: 1, cy:421.3 });
+				SVG.select("#SVG_T3G3 .anim3-1").animate(1000, '<>', 600).transform({ scaleY: 1, cy:421.3 });
 				SVG.select("#SVG_T3G3 .anim1-2").animate(1000, '<>', 1000).opacity(1);
 				SVG.select("#SVG_T3G3 .anim2-2").animate(1000, '<>', 1200).opacity(1);
 				SVG.select("#SVG_T3G3 .anim3-2").animate(1000, '<>', 1400).opacity(1);
@@ -589,6 +589,9 @@ jQuery(function($) {
 				SVG.select("#SVG_T3G3 .anim4-1").animate(1000, '<>', 1500).opacity(1).dy(-10);
 				SVG.select("#SVG_T3G3 .anim4-2").animate(1000, '<>', 1600).opacity(1);
 				SVG.select("#SVG_T3G3 .anim4-3").animate(1000, '<>', 1700).opacity(1).transform({ scaleX: 1, cx:609.7 });
+				SVG.select("#SVG_T3G3 .fm1").dy(-30);
+
+				
 			break;
 			case 'SVG_T3G4':
 				SVG.select("#SVG_T3G4 .anim1-0").animate(500, '<>', 0).opacity(1);

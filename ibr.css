@@ -141,7 +141,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .Introduction h2 { color:#FFF; margin-bottom:5vw;}
 .Introduction .Wrapper { width:60%; margin:0 auto; padding:5vw 0; opacity:0; transition:.5s opacity ease-in-out; }
 .Introduction .Button { margin:3vw 0; }
-
 body.IntroductionActive { overflow:hidden; }
 body.IntroductionActive .Introduction { transform:translate3d(0,0,0); }
 body.IntroductionActive .Introduction .Wrapper { opacity:1; transition-delay:1s; }
