@@ -74,7 +74,7 @@ jQuery(function($) {
 		window.sr = ScrollReveal({viewFactor: 0.5, opacity:1, scale:1, distance:0,duration: 1000});
 		sr.reveal("[data-reveal='Classic']", { opacity:0 });
 		sr.reveal(".Section", { 
-			viewFactor: 0.35, 
+			viewFactor: 0.55, 
 			reset:true, 
 			beforeReveal: function (El) { 
 				$(El).addClass("Revealed"); 
