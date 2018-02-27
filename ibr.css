@@ -160,6 +160,7 @@ body.IntroductionActive .Introduction::before { opacity:0.1; transition-delay:1s
 	.Introduction .Button { margin:9vw 0; }
 	.Introduction_Close { width:9vw; height:9vw; top:4vw; right:4vw;}
 }
+.Introduction_Link {color: #3658ff}
 
 /* Sections */
 .Section {  width:100%; height:100vh; min-height:50vw; max-height:65vw; position:relative; overflow:hidden; }
