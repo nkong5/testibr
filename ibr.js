@@ -157,18 +157,18 @@ jQuery(function($) {
 				SVG.select("#SVG_T2G2 .anim3").opacity(0).transform({ scaleY: 0.00001, cy:490 });
 				SVG.select("#SVG_T2G2 .anim4").opacity(0);
 				SVG.select("#SVG_T2G2 .anim5").opacity(0).transform({ scaleY: 0.00001, cy:494.1 });
-				SVG.select("#SVG_T2G2 .anim6").opacity(0)
-				SVG.select("#SVG_T2G2 .anim6-1").opacity(0).transform({ scaleX: 0.00001, cx:84.8 });
-				SVG.select("#SVG_T2G2 .anim6-2").opacity(0);
-				SVG.select("#SVG_T2G2 .anim7").opacity(0);
-				SVG.select("#SVG_T2G2 .anim7-1").opacity(0).transform({ scaleX: 0.00001, cx:84.8 });
-				SVG.select("#SVG_T2G2 .anim7-2").opacity(0);
-				SVG.select("#SVG_T2G2 .anim8").opacity(0);
-				SVG.select("#SVG_T2G2 .anim8-1").opacity(0).transform({ scaleX: 0.00001, cx:84.8 });
-				SVG.select("#SVG_T2G2 .anim8-2").opacity(0);
-				SVG.select("#SVG_T2G2 .anim9").opacity(0);
-				SVG.select("#SVG_T2G2 .anim9-1").opacity(0).transform({ scaleX: 0.00001, cx:84.8 });
-				SVG.select("#SVG_T2G2 .anim9-2").opacity(0);
+				SVG.select("#SVG_T2G2 .anim6").dy(90).opacity(0)
+				SVG.select("#SVG_T2G2 .anim6-1").dy(90).opacity(0).transform({ scaleX: 0.00001, cx:84.8 });
+				SVG.select("#SVG_T2G2 .anim6-2").dy(90).opacity(0);
+				SVG.select("#SVG_T2G2 .anim7").dy(-90).opacity(0);
+				SVG.select("#SVG_T2G2 .anim7-1").dy(-90).opacity(0).transform({ scaleX: 0.00001, cx:84.8 });
+				SVG.select("#SVG_T2G2 .anim7-2").dy(-90).opacity(0);
+				SVG.select("#SVG_T2G2 .anim8").dy(90).opacity(0);
+				SVG.select("#SVG_T2G2 .anim8-1").dy(90).opacity(0).transform({ scaleX: 0.00001, cx:84.8 });
+				SVG.select("#SVG_T2G2 .anim8-2").dy(90).opacity(0);
+				SVG.select("#SVG_T2G2 .anim9").dy(-90).opacity(0);
+				SVG.select("#SVG_T2G2 .anim9-1").dy(-90).opacity(0).transform({ scaleX: 0.00001, cx:84.8 });
+				SVG.select("#SVG_T2G2 .anim9-2").dy(-90).opacity(0);
 				SVG.select("#SVG_T2G2 .anim10").opacity(0);
 			break;
 			case 'SVG_T2G3':
