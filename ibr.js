@@ -195,12 +195,12 @@ jQuery(function($) {
 				SVG.select("#SVG_T2G4 .anim4").opacity(0);
 				SVG.select("#SVG_T2G4 .anim5").opacity(0).transform({ scaleY: 0.00001, cy:494.1 });
 				SVG.select("#SVG_T2G4 .anim6").opacity(0)
-				SVG.select("#SVG_T2G4 .anim6-1").opacity(0).transform({ scaleX: 0.00001, cx:84.8 });
-				SVG.select("#SVG_T2G4 .anim6-2").opacity(0);
-				SVG.select("#SVG_T2G4 .anim7").opacity(0);
-				SVG.select("#SVG_T2G4 .anim7-1").opacity(0).transform({ scaleX: 0.00001, cx:84.8 });
-				SVG.select("#SVG_T2G4 .anim7-2").opacity(0);
-				SVG.select("#SVG_T2G4 .anim8").opacity(0);
+				SVG.select("#SVG_T2G4 .anim6-1").opacity(0).dy(85).transform({ scaleX: 0.00001, cx:84.8 });
+				SVG.select("#SVG_T2G4 .anim6-2").opacity(0).dy(85);
+				SVG.select("#SVG_T2G4 .anim7").opacity(0).dy(85);
+				SVG.select("#SVG_T2G4 .anim7-1").opacity(0).dy(-85).transform({ scaleX: 0.00001, cx:84.8 });
+				SVG.select("#SVG_T2G4 .anim7-2").opacity(0).dy(-85);
+				SVG.select("#SVG_T2G4 .anim8").opacity(0).dy(-85);
 				SVG.select("#SVG_T2G4 .anim8-1").opacity(0).transform({ scaleX: 0.00001, cx:84.8 });
 				SVG.select("#SVG_T2G4 .anim8-2").opacity(0);
 				SVG.select("#SVG_T2G4 .anim10").opacity(0);
