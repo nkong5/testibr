@@ -11,10 +11,9 @@
 	#SVG_T4 .st7{fill:none;stroke:#DE3849;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,12.931;}
 	#SVG_T4 .st8{font-family:'Raleway'; font-weight:600;}
 	#SVG_T4 .st9{font-size:19px;}
-	#SVG_T4 .st10{letter-spacing:0.1px;}
 	#SVG_T4 .st11{fill:#3D3F41;}
 	#SVG_T4 .st12{font-size:16px;}
-	#SVG_T4 .st13{font-size:12px; letter-spacing:-0.1px;}
+	#SVG_T4 .st13{font-size:12px; }
 	#SVG_T4 .st14{font-family:'Raleway'; font-weight:400;}
 	#SVG_T4 .st15{font-size:11.077px;}
 	#SVG_T4 .st16{fill:#3B454A; }
