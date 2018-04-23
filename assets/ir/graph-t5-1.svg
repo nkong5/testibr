@@ -7,33 +7,35 @@
 	#SVG_T5-1 .st3{font-size:25px;}
 	#SVG_T5-1 .st4{fill:#DE3849;}
 </style>
-<g class="anim0"><text transform="matrix(1 0 0 1 115.6218 21.3749)" class="st0 st1 st3">Age</text></g>
+<g class="anim0"><text transform="matrix(1 0 0 1 140.6218 21.3749)" class="st0 st1 st3">سن</text></g>
 <g class="anim1-1">
-	<text transform="matrix(1 0 0 1 24.51 225.9066)" class="st0 st1 st2">under</text>
-	<text transform="matrix(1 0 0 1 24.51 237.9066)" class="st0 st1 st2">20</text>
+	<text transform="matrix(1 0 0 1 31.51 225.9066)" class="st0 st1 st2">زیر </text> 
+	<text transform="matrix(1 0 0 1 31.51 237.9066)" class="st0 st1 st2">۲۰ </text> 
+	<text transform="matrix(1 0 0 1 31.51 219.9066)" class="st0 st1 st2">سال</text>
 </g>
 <g class="anim2-1">
-	<text transform="matrix(1 0 0 1 67.3699 225.7162)" class="st0 st1 st2">20-</text>
-	<text transform="matrix(1 0 0 1 67.3699 237.7162)" class="st0 st1 st2">29</text>
+	<text transform="matrix(1 0 0 1 67.3699 225.7162)" class="st0 st1 st2">۲۰-</text>
+	<text transform="matrix(1 0 0 1 67.3699 237.7162)" class="st0 st1 st2">۲۹</text>
 </g>
 <g class="anim3-1">
-	<text transform="matrix(1 0 0 1 106.2498 225.7162)" class="st0 st1 st2">30-</text>
-	<text transform="matrix(1 0 0 1 106.2498 237.7162)" class="st0 st1 st2">39</text>
+	<text transform="matrix(1 0 0 1 107.2498 225.7162)" class="st0 st1 st2">۳۰-</text>
+	<text transform="matrix(1 0 0 1 107.2498 237.7162)" class="st0 st1 st2">۳۹</text>
 </g>
 <g class="anim4-1">
-	<text transform="matrix(1 0 0 1 144.3699 225.7162)" class="st0 st1 st2">40-</text>
-	<text transform="matrix(1 0 0 1 144.3699 237.7162)" class="st0 st1 st2">49</text>
+	<text transform="matrix(1 0 0 1 145.3699 225.7162)" class="st0 st1 st2">۴۰-</text>
+	<text transform="matrix(1 0 0 1 145.3699 237.7162)" class="st0 st1 st2">۴۹</text>
 </g>
 <g class="anim5-1">
-	<text transform="matrix(1 0 0 1 183.5999 225.7162)" class="st0 st1 st2">50-</text>
-	<text transform="matrix(1 0 0 1 183.5999 237.7162)" class="st0 st1 st2">59</text>
+	<text transform="matrix(1 0 0 1 184.5999 225.7162)" class="st0 st1 st2">۵۰-</text>
+	<text transform="matrix(1 0 0 1 184.5999 237.7162)" class="st0 st1 st2">۵۹</text>
 </g>
 <g class="anim6-1">
-	<text transform="matrix(1 0 0 1 214.1799 225.9066)" class="st0 st1 st2">60 and </text>
-	<text transform="matrix(1 0 0 1 214.1799 237.9066)" class="st0 st1 st2">over</text>
+	<text transform="matrix(1 0 0 1 219.1799 225.9066)" class="st0 st1 st2">و بالاتر</text>
+	<text transform="matrix(1 0 0 1 219.1799 237.9066)" class="st0 st1 st2">۶۰</text>
 </g>
 <g class="anim7-1">
-	<text transform="matrix(1 0 0 1 261.6301 225.7162)" class="st0 st1 st2">n/a</text>
+	<text transform="matrix(1 0 0 1 262.6301 225.7162)" class="st0 st1 st2">غیر</text>
+	<text transform="matrix(1 0 0 1 255.6301 237.7162)" class="st0 st1 st2">مشخص</text>
 </g>
 <g class="anim1-2"><rect x="31.1" y="182.7" class="st4" width="12.9" height="25.5"/></g>
 <g class="anim2-2"><rect x="69.9" y="103.3" class="st4" width="12.9" height="104.9"/></g>

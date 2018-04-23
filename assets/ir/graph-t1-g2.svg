@@ -113,9 +113,9 @@
 <g class="anim6">		
 	<line class="st8" x1="280.8" y1="42.8" x2="318.8" y2="42.8"/>
 	
-	<text transform="matrix(1.0052 0 0 1 281.1185 37.4027)" class="st4 st15 st16">14</text>
-	<text transform="matrix(1.0052 0 0 1 315.2591 27.2221)" class="st4 st11 st17">%</text>
-	<text transform="matrix(1.0052 0 0 1 281.1576 54.4369)"><tspan x="0" y="0" class="st10 st11 st12">School/ </tspan><tspan x="0" y="10.8" class="st10 st11 st12">University</tspan></text>
+	<text transform="matrix(1.0052 0 0 1 316.1185 37.4027)" class="rtl st4 st15 st16">۱۴</text>
+	<text transform="matrix(1.0052 0 0 1 329.2591 27.2221)" class="rtl st4 st11 st17">٪</text>
+	<text transform="matrix(1.0052 0 0 1 281.1576 54.4369)" class="st10 st11 st12">در مدرسه یا دانشگاه</text>
 </g>
 <g class="anim7">
 	<path class="st4" d="M229.5,239.4c31.1-17.5,42.1-56.9,24.5-87.8c-17.6-31-57.1-41.9-88.3-24.4c-31.1,17.5-42.1,56.9-24.5,87.8
@@ -147,9 +147,9 @@
 <g class="anim8">		
 	<line class="st8" x1="174.8" y1="94.8" x2="211.8" y2="94.8"/>
 
-	<text transform="matrix(1.0052 0 0 1 174.2083 90.4359)" class="st4 st15 st16">17</text>
-	<text transform="matrix(1.0052 0 0 1 206.1971 80.2553)" class="st4 st11 st17">%</text>
-	<text transform="matrix(1.0052 0 0 1 174.5379 106.393)"><tspan x="0" y="0" class="st10 st11 st12">Workplace</tspan></text>
+	<text transform="matrix(1.0052 0 0 1 209.2083 90.4359)" class="rtl st4 st15 st16">۱۷</text>
+	<text transform="matrix(1.0052 0 0 1 220.1971 80.2553)" class="rtl st4 st11 st17">٪</text>
+	<text transform="matrix(1.0052 0 0 1 174.5379 106.393)"><tspan x="0" y="0" class="st10 st11 st12">در محیط کار</tspan></text>
 </g>
 <g class="anim9">
 	<path class="st4" d="M112.6,316.9c36.3-20.4,49-66.2,28.5-102.3c-20.5-36.1-66.6-48.8-102.8-28.4C2,206.7-10.7,252.5,9.8,288.5
@@ -212,9 +212,9 @@
 </g>
 <g class="anim10">
 	<line class="st8" x1="49.8" y1="144.8" x2="86.8" y2="144.8"/>
-	<text transform="matrix(1.0052 0 0 1 48.2318 138.9213)"><tspan x="0" y="0" class="st4 st15 st16 st18">2</tspan><tspan x="15.4" y="0" class="st4 st15 st16">0</tspan></text>
-	<text transform="matrix(1.0052 0 0 1 87.9647 128.7396)" class="st4 st11 st17">%</text>
-	<text transform="matrix(1.0052 0 0 1 49.3387 156.8685)"><tspan x="0" y="0" class="st13 st11 st12">Public </tspan><tspan x="0" y="10.8" class="st13 st11 st12">television</tspan></text>
+	<text transform="matrix(1.0052 0 0 1 83.2318 138.9213)"><tspan x="0" y="0" class="rtl st4 st15 st16 st18">۲۰</tspan></text>
+	<text transform="matrix(1.0052 0 0 1 92.9647 128.7396)" class="rtl st4 st11 st17">٪</text>
+	<text transform="matrix(1.0052 0 0 1 49.3387 156.8685)"><tspan x="0" y="0" class="st13 st11 st12">از طریق تلویزیون ملی</tspan></text>
 </g>
 
 <g class="anim1">
@@ -223,9 +223,10 @@
 	<path class="st2" d="M466.3,243.8l-18.1,33.4c11.4,6.2,19.2,18.2,19.2,32.2h38C505.3,281.3,489.6,256.4,466.3,243.8"/>
 	<path class="st3" d="M430.8,364.8c30.6,0,55.4-24.8,55.4-55.4c0-30.6-24.8-55.4-55.4-55.4s-55.4,24.8-55.4,55.4
 		C375.3,340,400.2,364.8,430.8,364.8"/>
-	<text transform="matrix(1 0 0 1 383.5941 336.2006)"><tspan x="0" y="0" class="st19 st20 st21">aware of the term </tspan><tspan x="-12.8" y="13.2" class="st19 st20 st21">'responsible business'</tspan></text>
-	<text transform="matrix(1 0 0 1 394.971 313.1761)" class="st0 st15 st23">77</text>
-	<text transform="matrix(1 0 0 1 447.6576 297.5394)" class="st0 st24 st25">%</text>
+	<text transform="matrix(1 0 0 1 498.5941 336.2006)"><tspan x="0" y="0" class="rtl st19 st20 st21">با عبارت «کسب و کار مسوولانه» آشنا</tspan></text>
+	<text transform="matrix(1 0 0 1 443.5941 336.2006)"><tspan x="0" y="1em" class="rtl st19 st20 st21">بوده اند</tspan></text>
+	<text transform="matrix(1 0 0 1 449.971 313.1761)" class="rtl st0 st15 st23">۷۷</text>
+	<text transform="matrix(1 0 0 1 462.6576 297.5394)" class="rtl st0 st24 st25">٪</text>
 </g>
 
 </svg>

@@ -1,7 +1,6 @@
 <svg version="1.1" id="SVG_T1G1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 558.1 300" data-viewBox="0 0 558.1 300" style="enable-background:new 0 0 558.1 300;" xml:space="preserve">
 <style type="text/css">
-	.rtl { direction:rtl;  }
 	.t1-g1-st0{fill:#80CAA4;}
 	.t1-g1-st1{fill:none;}
 	.t1-g1-st2{fill:#DF3A4A;}
@@ -108,14 +107,19 @@
 	c-0.7,0-0.9,0.3-0.9,1C205.7,263.6,205.7,269.3,205.7,275z"/>
 <path class="t1-g1-st6" d="M200.5,249.9c-2.3,0-4-1.8-4-4.1c0-2.1,1.9-3.9,4-3.9c2.2,0,4,1.8,4,4.1C204.6,248,202.7,249.9,200.5,249.9z"/>
 </g></g>
+
+    
 <g class="t1-g1-anim5"> 
- 
 <text transform="matrix(1 0 0 1 283.5362 64.8266)" class="t1-g1-st2 t1-g1-st10 t1-g1-st11">۶۰</text>
 <text transform="matrix(1 0 0 1 345.7999 47.8462)" class="t1-g1-st2 t1-g1-st12 t1-g1-st13">٪</text> 
-<text transform="matrix(1 0 0 1 384.1436 96.6157)" class="t1-g1-st3 t1-g1-st7 t1-g1-st8"><tspan class="rtl" x="0" dy="0em">اتصال به اینترنت و</tspan> <tspan class="rtl" x="0" dy="1em">استفاده روزانه از تلگرام</tspan></text>
+<text transform="matrix(1 0 0 1 359.1436 96.6157)" class="t1-g1-st3 t1-g1-st7 t1-g1-st8"><tspan class="rtl" x="0" dy="0em">اتصال به اینترنت و</tspan></text>
+<text transform="matrix(1 0 0 1 359.1436 96.6157)" class="t1-g1-st3 t1-g1-st7 t1-g1-st8"><tspan class="rtl" x="0" dy="1em">استفاده روزانه از تلگرام</tspan></text>
 </g>
 <g class="t1-g1-anim6">
-<text transform="matrix(1 0 0 1 -84.1436 232.5434)" class="t1-g1-st3 t1-g1-st7 t1-g1-st8"></text>
+<text transform="matrix(1 0 0 1 359.1436 252.5434)" class="t1-g1-st3 t1-g1-st7 t1-g1-st8"><tspan class="rtl" x="0" dy="0em"><tspan>بیش از</tspan> <tspan class="t1-g1-st2">یک سوم </tspan><tspan>پاسخ دهندگان،</tspan></text>
+<text transform="matrix(1 0 0 1 359.1436 252.5434)" class="t1-g1-st3 t1-g1-st7 t1-g1-st8"><tspan class="rtl" x="0" dy="1em">بیشتر از یک بار در هفته شبکه</tspan></text>
+<text transform="matrix(1 0 0 1 359.1436 252.5434)" class="t1-g1-st3 t1-g1-st7 t1-g1-st8"><tspan class="rtl" x="0" dy="2em">های ماهواره ای را میبینند و</tspan></text>
+<text transform="matrix(1 0 0 1 359.1436 252.5434)" class="t1-g1-st3 t1-g1-st7 t1-g1-st8"><tspan class="rtl" x="0" dy="3em">به رادیوهای خارجی گوش میدهند</tspan></text>
 </g>
 <path class="t1-g1-st2" d="M489.1,75.5c0,0,0.2,0,0.5,0c0.2,0,0.3-0.3,0.3-0.5c0-0.2-0.1-0.5-0.3-0.5c-0.6,0-1.2,0-1.8,0
 	c-0.2,0-0.3,0.2-0.3,0.4c0,0.2,0.1,0.4,0.3,0.4c0.3,0,0.6,0.2,0.9,0.2 M488.7,105.3c0.5,0,0.9,0,1.4,0c0.3,0,0.4-0.1,0.4-0.4

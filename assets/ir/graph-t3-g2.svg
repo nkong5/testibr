@@ -287,34 +287,43 @@
 <path class="st5" d="M634.3,409.9c-6.4-0.1-11.3-5.2-11.2-11.7c0.1-5.9,5.3-10.9,11.3-10.8c6.3,0.1,11.3,5.2,11.2,11.4
 	C645.4,405,640.3,410,634.3,409.9 M627.8,398.6c0,3.7,2.9,6.6,6.5,6.6c3.6,0,6.5-3,6.5-6.6c0-3.6-2.9-6.5-6.5-6.5
 	C630.8,392.1,627.8,395,627.8,398.6"/>
-<g class="anim4-0"><text transform="matrix(1 0 0 1 0 87.909)"><tspan x="0" y="0" class="st10 st11 st13">Nationality</tspan></text></g>
+<g class="anim4-0"><text transform="matrix(1 0 0 1 55 87.909)"><tspan x="0" y="0" class="st10 st11 st13">ملیت</tspan></text></g>
 <g class="anim4-4">
-	<text transform="matrix(1 0 0 1 290.793 70.6185)" class="st0 st11 st14">92</text>
-	<text transform="matrix(1 0 0 1 346.1221 61.1673)" class="st0 st15 st16">%</text>
-	<text transform="matrix(1 0 0 1 280.4126 99.1082)"><tspan x="-8" y="0" class="st10 st11 st12">* believe Iranians</tspan> <tspan x="0" y="1.3em" class="st10 st11 st12">should have</tspan> <tspan x="0" y="2.6em" class="st10 st11 st12">priority</tspan></text>
+	<text transform="matrix(1 0 0 1 290.793 70.6185)" class="st0 st11 st14">۹۲</text>
+	<text transform="matrix(1 0 0 1 346.1221 61.1673)" class="st0 st15 st16">٪</text>
+	<text transform="matrix(1 0 0 1 302.4126 99.1082)"><tspan x="-8" y="0" class="st10 st11 st12">باور دارند که ایرانیان</tspan> </text>
+	<text transform="matrix(1 0 0 1 293.4126 99.1082)"><tspan x="0" y="1.3em" class="st10 st11 st12">باید در اولویت باشند</tspan></text>
 </g>
-<g class="anim3-0"><text transform="matrix(1 0 0 1 22 222.1326)" class="st10 st11 st13">Religion</text></g>
+<g class="anim3-0"><text transform="matrix(1 0 0 1 52 222.1326)" class="st10 st11 st13">مذهب</text></g>
 <g class="anim3-4">
-	<text transform="matrix(1 0 0 1 289.5425 217.2381)" class="st0 st11 st14">70</text>
-	<text transform="matrix(1 0 0 1 347.2148 204.7869)" class="st0 st15 st16">%</text>
-	<text transform="matrix(1 0 0 1 280.4126 243.9881)"><tspan x="-8" y="0" class="st10 st11 st12">* believe Muslims</tspan> <tspan x="0" y="1.3em" class="st10 st11 st12">should have</tspan> <tspan x="0" y="2.6em" class="st10 st11 st12">priority over</tspan> <tspan x="0" y="3.9em" class="st10 st11 st12">non-Muslims</text>
+	<text transform="matrix(1 0 0 1 289.5425 217.2381)" class="st0 st11 st14">۷۰</text>
+	<text transform="matrix(1 0 0 1 347.2148 204.7869)" class="st0 st15 st16">٪</text>
+	<text transform="matrix(1 0 0 1 300 243.9881)"><tspan x="-8" y="0" class="st10 st11 st12">باور دارند که مسلمانان</tspan> </text>
+	<text transform="matrix(1 0 0 1 292.0 243.9881)"><tspan x="0" y="1.3em" class="st10 st11 st12">باید بر غیرمسلمانان</tspan> </text>
+	<text transform="matrix(1 0 0 1 291 243.9881)"><tspan x="0" y="2.6em" class="st10 st11 st12">اولویت داشته باشند</tspan></text>
 </g>
-<g class="anim2-0"><text transform="matrix(1 0 0 1 35.5 344.3568)"><tspan x="0" y="0" class="st10 st11 st13">Sexual</tspan> <tspan x="-35" y="1.3em" class="st10 st11 st13">orientation</tspan></text></g>
+<g class="anim2-0"><text transform="matrix(1 0 0 1 12.5 364.3568)"><tspan x="0" y="0" class="st10 st11 st13">گرایش جنسی</tspan></text></g>
 <g class="anim2-4">
-	<text transform="matrix(1 0 0 1 287.0513 346.1693)" class="st0 st11 st14">70</text>
-	<text transform="matrix(1 0 0 1 344.7236 335.7181)" class="st0 st15 st16">%</text>
-	<text transform="matrix(1 0 0 1 279.5029 373.2278)"><tspan x="-8" y="0" class="st10 st11 st12">* believe</tspan> <tspan x="0" y="1.3em" class="st10 st11 st12">homosexuals</tspan> <tspan x="0" y="2.6em" class="st10 st11 st12">should not be</tspan> <tspan x="0" y="3.9em" class="st10 st11 st12">hired</tspan></text>
+	<text transform="matrix(1 0 0 1 287.0513 346.1693)" class="st0 st11 st14">۷۰</text>
+	<text transform="matrix(1 0 0 1 344.7236 335.7181)" class="st0 st15 st16">٪</text>
+	<text transform="matrix(1 0 0 1 298.5029 373.2278)"><tspan x="-8" y="0" class="st10 st11 st12">باور دارند که</tspan> </text>
+	<text transform="matrix(1 0 0 1 289.5029 373.2278)"><tspan x="0" y="1.3em" class="st10 st11 st12">همجنس گرایان نباید</tspan> </text>
+	<text transform="matrix(1 0 0 1 289.5029 373.2278)"><tspan x="0" y="2.6em" class="st10 st11 st12">استخدام شوند</tspan></text>
 </g>
-<g class="anim1-0"><text transform="matrix(1 0 0 1 29.6 485.8128)" class="st10 st11 st13">Gender</text></g>
+<g class="anim1-0"><text transform="matrix(1 0 0 1 44.6 485.8128)" class="st10 st11 st13">جنسیت</text></g>
 <g class="anim1-4">
-	<text transform="matrix(1 0 0 1 289.6035 470.8157)" class="st0 st11 st14">65</text>
-	<text transform="matrix(1 0 0 1 345.6709 458.3646)" class="st0 st15 st16">%</text>
-	<text transform="matrix(1 0 0 1 279.5029 495.6878)"><tspan x="-8" y="0" class="st10 st11 st12">* believe men</tspan> <tspan x="0" y="1.3em" class="st10 st11 st12">should have</tspan> <tspan x="0" y="2.6em" class="st10 st11 st12">priority over</tspan> <tspan x="0" y="3.9em" class="st10 st11 st12">women</tspan></text>
+	<text transform="matrix(1 0 0 1 289.6035 470.8157)" class="st0 st11 st14">۶۵</text>
+	<text transform="matrix(1 0 0 1 345.6709 458.3646)" class="st0 st15 st16">٪</text>
+	<text transform="matrix(1 0 0 1 296.5029 495.6878)"><tspan x="-8" y="0" class="st10 st11 st12">باور دارند که مردان</tspan> </text>
+	<text transform="matrix(1 0 0 1 287.5029 495.6878)"><tspan x="0" y="1.3em" class="st10 st11 st12">باید بر زنان اولویت</tspan> </text>
+	<text transform="matrix(1 0 0 1 295.5029 495.6878)"><tspan x="-8" y="2.6em" class="st10 st11 st12">داشته باشند</tspan></text>
 </g>
-<g class="anim5-0"><text transform="matrix(1 0 0 1 478.416 89.0286)" class="st10 st11 st13">Disability</text></g>
+<g class="anim5-0"><text transform="matrix(1 0 0 1 458.416 89.0286)" class="st10 st11 st13">ناتوانی - معلولیت</text></g>
 <g class="anim5-4">
-	<text transform="matrix(1 0 0 1 652.6572 184.5301)" class="st1 st11 st14">78</text>
-	<text transform="matrix(1 0 0 1 706.4248 174.0789)" class="st1 st15 st16">%</text>
-	<text transform="matrix(1 0 0 1 648.8125 209.7982)"><tspan x="-8" y="0" class="st10 st11 st12">* in favor of</tspan> <tspan x="0" y="1.3em" class="st10 st11 st12">hiring and</tspan> <tspan x="0" y="2.6em" class="st10 st11 st12">supporting</tspan> <tspan x="0" y="3.9em" class="st10 st11 st12">disabled people</tspan></text>
+	<text transform="matrix(1 0 0 1 652.6572 184.5301)" class="st1 st11 st14">۷۸</text>
+	<text transform="matrix(1 0 0 1 706.4248 174.0789)" class="st1 st15 st16">٪</text>
+	<text transform="matrix(1 0 0 1 662.8125 209.7982)"><tspan x="-8" y="0" class="st10 st11 st12">موافق استخدام و</tspan> </text>
+	<text transform="matrix(1 0 0 1 662.8125 209.7982)"><tspan x="-8" y="1.3em" class="st10 st11 st12">حمایت از اشخاص</tspan> </text>
+	<text transform="matrix(1 0 0 1 662.8125 209.7982)"><tspan x="-8" y="2.6em" class="st10 st11 st12">(ناتوان (دارای معلولیت</tspan> </text>
 </g>
 </svg>

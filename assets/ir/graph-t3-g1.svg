@@ -27,7 +27,8 @@
 	<line class="st3" x1="719.7" y1="490" x2="719.7" y2="6.8"/>
 </g>
 <g class="anim6">
-	<text transform="matrix(1 0 0 1 22.1406 164.3882)"><tspan x="0" y="0" class="st7 st1 st2">Disclose board</tspan> <tspan x="0" y="1.3em" class="st7 st1 st2">members</tspan></text>
+	<text transform="matrix(1 0 0 1 22.1406 164.3882)"><tspan x="0" y="0" class="st7 st1 st2">آشکار کردن اعضای</tspan> </text>
+	<text transform="matrix(1 0 0 1 22.1406 164.3882)"><tspan x="0" y="1.3em" class="st7 st1 st2">هیات مدیره</tspan></text>
 	
 	<path class="st7" d="M101,100.2c-0.1-1.5-0.1-2.8-0.2-4.2C100,90.7,94,87.3,89,89.5c-4.5,1.9-6,5.8-5.3,10.7H101z M53,100.2
 		c0-1.2,0.1-2.2,0-3.3c-0.4-6.1-6.9-9.9-12.3-7.2c-4.1,2-5.4,5.8-4.9,10.5H53z M76.9,100.2c0-1.1,0.1-2.1,0-3.1
@@ -61,7 +62,8 @@
 		M68.3,68.3c4.3,0,7.9,3.6,7.8,8c-0.1,4.3-3.6,7.8-7.9,7.8c-4.4,0-7.9-3.6-7.9-8.1C60.4,71.8,64,68.3,68.3,68.3z"/>
 </g>
 <g class="anim7">
-	<text transform="matrix(1 0 0 1 189.3608 164.3882)"><tspan x="0" y="0" class="st7 st1 st2">Disclose owners</tspan> <tspan x="0" y="1.3em" class="st7 st1 st2">and shareholders</tspan></text>
+	<text transform="matrix(1 0 0 1 189.3608 164.3882)"><tspan x="0" y="0" class="st7 st1 st2">آشکار کردن صاحبان</tspan> </text>
+	<text transform="matrix(1 0 0 1 189.3608 164.3882)"><tspan x="0" y="1.3em" class="st7 st1 st2">و سهامداران</tspan></text>
 		
 	<path class="st7" d="M263.9,128.1h-72.1v7.5h72.1V128.1z M192.8,125.8h69.9c-0.6-0.9-1.2-1.7-1.7-2.5c-2.3-3.2-4.6-6.4-6.8-9.6
 		c-0.3-0.4-0.5-0.5-1-0.5c-2.8,0-5.5,0-8.3,0c-0.9,0-1.3-0.4-1.3-1.2c0-0.8,0.4-1.2,1.3-1.2c3.1,0,6.2,0,9.4,0c0.6,0,1,0.2,1.3,0.7
@@ -103,7 +105,8 @@
 		C228.8,117.6,228.7,118,228.7,118.5"/>
 </g>
 <g class="anim8">
-	<text transform="matrix(1 0 0 1 358.2011 164.3882)"><tspan x="0" y="0" class="st7 st1 st2">Disclose</tspan> <tspan x="0" y="1.3em" class="st7 st1 st2">subcontractors</tspan></text>
+	<text transform="matrix(1 0 0 1 358.2011 164.3882)"><tspan x="0" y="0" class="st7 st1 st2">آشکار کردن</tspan> </text>
+	<text transform="matrix(1 0 0 1 358.2011 164.3882)"><tspan x="0" y="1.3em" class="st7 st1 st2">پیمانکاران تبعی</tspan></text>
 		
 	<path class="st7" d="M415.4,83c-5.6-5.3-11.1-10.5-16.7-15.8V83H415.4z M360.6,137.4h56.5V85.5h-0.8c-6.1,0-12.2,0-18.3,0
 		c-1.3,0-1.7-0.3-1.7-1.6c0-5.8,0-11.6,0-17.4v-0.8h-35.7V137.4z M358.2,102.1c0-12,0-24,0-36c0-1.1,0.3-1.9,1.3-2.4
@@ -144,7 +147,8 @@
 		c1.7,0,3.4,0,5.1,0c0.7,0,1.2,0.3,1.3,1c0.1,0.7-0.4,1.3-1.2,1.3C408.3,106.2,406.7,106.2,405.1,106.2"/>
 </g>
 <g class="anim9">
-	<text transform="matrix(1 0 0 1 507.4091 164.3882)"><tspan x="0" y="0" class="st7 st1 st2">Disclose</tspan> <tspan x="0" y="1.3em" class="st7 st1 st2">clients</tspan></text>
+	<text transform="matrix(1 0 0 1 507.4091 164.3882)"><tspan x="0" y="0" class="st7 st1 st2">آشکار کردن</tspan> </text>
+	<text transform="matrix(1 0 0 1 507.4091 164.3882)"><tspan x="0" y="1.3em" class="st7 st1 st2">مشتریان</tspan></text>
 	<path class="st7" d="M546.7,101.9c9.7,0.2,18.2-7.7,18.2-18c0-10.3-8-18.1-18-18.2c-10.1-0.1-18.1,8.1-18.2,18
 		C528.6,93.9,536.9,102,546.7,101.9 M567.3,84c-0.1,10.8-9,20.5-21.2,20.2c-10.6-0.3-20.2-8.9-19.8-21.3c0.4-10.5,9-19.9,21.2-19.5
 		C558.2,63.6,567.2,72.2,567.3,84"/>
@@ -189,23 +193,33 @@
 		c1,0,1.5,0.8,1.2,1.7c-0.2,0.6-0.8,0.8-1.3,0.8c-1,0-1.9,0-2.9,0C558.7,85,558.5,85,558.2,85"/>
 </g>
 <g class="anim11">
-	<text transform="matrix(1 0 0 1 14.7245 403.1875)" class="st7 st1 st9">6.6</text>
-	<text transform="matrix(1 0 0 1 16.9999 425.2871)"><tspan x="0" y="0" class="st5 st1 st6">* average score for transparency requirements</tspan></text>
+	<text transform="matrix(1 0 0 1 14.7245 403.1875)" class="st7 st1 st9">۶،۶</text>
+	<text transform="matrix(1 0 0 1 16.9999 425.2871)"><tspan x="0" y="0" class="st5 st1 st6">* میانگین امتیاز برای الزامات مرتبط با شفافیت</tspan></text>
 </g>
 <g class="anim4">
 	<text transform="matrix(1 0 0 1 5.9648 525.5352)" class="st0 st1 st2">0</text>
 	<text transform="matrix(1 0 0 1 356.7724 525.5352)" class="st0 st1 st2">5</text>
 	<text transform="matrix(1 0 0 1 703.8486 525.5352)" class="st0 st1 st2">10</text>
 	<text transform="matrix(1 0 0 1 731.5644 10.2598)" class="st0 st1 st2">100%</text>
-	<text transform="matrix(1 0 0 1 733.1279 83.7002)"><tspan x="0" y="0" class="st5 st1 st6">environmental</tspan> <tspan x="0" y="1.3em" class="st5 st1 st6">protection</tspan></text>
-	<text transform="matrix(1 0 0 1 733.1279 169.9204)"><tspan x="0" y="0" class="st5 st1 st6">workplace</tspan> <tspan x="0" y="1.3em" class="st5 st1 st6">safety</tspan></text>
-	<text transform="matrix(1 0 0 1 733.1279 204.0703)"><tspan x="0" y="0" class="st5 st1 st6">workers’</tspan> <tspan x="0" y="1.3em" class="st5 st1 st6">rights</text>
-	<text transform="matrix(1 0 0 1 733.1279 234.1304)"><tspan  x="0" y="0"class="st5 st1 st6">impact on</tspan> <tspan x="0" y="1.3em" class="st5 st1 st6">communities</tspan></text>
-	<text transform="matrix(1 0 0 1 733.1279 307.8398)"><tspan x="0" y="0" class="st5 st1 st6">consumer</tspan> <tspan x="0" y="1.3em" class="st5 st1 st6">rights</text>
+	<text transform="matrix(1 0 0 1 733.1279 83.7002)"><tspan x="0" y="0" class="st5 st1 st6">حفظ محیط</tspan> </text>
+	<text transform="matrix(1 0 0 1 733.1279 83.7002)"><tspan x="0" y="1.3em" class="st5 st1 st6">زیست</tspan></text>
+	
+	<text transform="matrix(1 0 0 1 733.1279 169.9204)"><tspan x="0" y="0" class="st5 st1 st6">ایمنی محیط</tspan> </text>
+	<text transform="matrix(1 0 0 1 733.1279 169.9204)"><tspan x="0" y="1.3em" class="st5 st1 st6">کار</tspan></text>
+	
+	<text transform="matrix(1 0 0 1 733.1279 204.0703)"><tspan x="0" y="0" class="st5 st1 st6">حقوق</tspan> </text>
+	<text transform="matrix(1 0 0 1 733.1279 204.0703)"><tspan x="0" y="1.3em" class="st5 st1 st6">کارگران</tspan></text>
+	
+	<text transform="matrix(1 0 0 1 733.1279 234.1304)"><tspan x="0" y="0"class="st5 st1 st6">تاثیر بر</tspan> </text>
+	<text transform="matrix(1 0 0 1 733.1279 234.1304)"><tspan x="0" y="1.3em" class="st5 st1 st6">جامعه</tspan></text>
+	
+	<text transform="matrix(1 0 0 1 733.1279 307.8398)"><tspan x="0" y="0" class="st5 st1 st6">حقوق مصرف</tspan> </text>
+	<text transform="matrix(1 0 0 1 733.1279 307.8398)"> <tspan x="0" y="1.3em" class="st5 st1 st6">کننده</tspan></text>
+
 	<text transform="matrix(1 0 0 1 731.5644 494.0635)" class="st0 st1 st2">0%</text>
 </g>
 <g class="anim1">
-	<text transform="matrix(1 0 0 1 273.5302 558.5078)"><tspan x="0" y="0" class="st1 st10">Priority given to transparency requirements</tspan></text>
+	<text transform="matrix(1 0 0 1 393.5302 558.5078)"><tspan x="0" y="0" class="st1 st10">اولویت داده شده به الزامات مرتبط با شفافیت</tspan></text>
 </g>
 <g class="anim5">
 	<g class="st11">
@@ -278,7 +292,7 @@
 	</g>
 </g>
 <g class="anim10">
-	<text transform="matrix(1 0 0 1 287.9169 374.9766)"><tspan x="0" y="0" class="st7 st1 st2">transparency</tspan></text>
+	<text transform="matrix(1 0 0 1 287.9169 374.9766)"><tspan x="0" y="0" class="st7 st1 st2">شفافیت</tspan></text>
 	<path class="st17" d="M709.4,405.8v86.8H11.6 M11.6,492.6c58.2-9.9,116.3-15.7,174.5-29.7c58.2-14.1,116.3-37,174.5-54.8
 		s116.3-51.5,174.5-51.9c58.2-0.4,116.3,33,174.5,49.6"/>
 </g>

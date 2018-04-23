@@ -16,28 +16,28 @@
 	#SVG_T5-2 .st12{fill:#73818A;}
 </style>
 <g class="anim0">
-	<text transform="matrix(1 0 0 1 87.0815 21.3749)" class="st0 st1 st4">Ethnicity</text>
+	<text transform="matrix(1 0 0 1 120.0815 21.3749)" class="st0 st1 st4">قومیت</text>
 </g>
 <g class="anim2">
-	<text transform="matrix(1 0 0 1 60.5806 62.4544)" class="st5 st1 st6">6</text>
-	<text transform="matrix(1 0 0 1 73.1523 56.1288)" class="st5 st7 st8">%</text>
-	<text transform="matrix(1 0 0 1 60.5693 75.7865)" class="st3 st1 st2">Gilak/Maza</text>
-	<text transform="matrix(1 0 0 1 60.5693 87.7865)" class="st3 st1 st2">/Shomali</text>
-	<text transform="matrix(1 0 0 1 127.8296 54.8905)" class="st5 st1 st6">6</text>
-	<text transform="matrix(1 0 0 1 140.4072 48.5633)" class="st5 st7 st8">%</text>
-	<text transform="matrix(1 0 0 1 127.8296 66.5365)" class="st0 st1 st2">Other</text>
-	<text transform="matrix(1 0 0 1 17.9268 115.0672)" class="st5 st1 st6">6</text>
-	<text transform="matrix(1 0 0 1 30.5088 108.7489)" class="st5 st7 st8">%</text>
-	<text transform="matrix(1 0 0 1 18.5396 127.5765)" class="st0 st1 st2">Lor</text>
-	<text transform="matrix(1 0 0 1 12.9741 179.0052)" class="st5 st1 st6">9</text>
-	<text transform="matrix(1 0 0 1 25.5547 172.6869)" class="st5 st7 st8">%</text>
-	<text transform="matrix(1 0 0 1 12.9595 190.9764)" class="st0 st1 st2">Kurd</text>
-	<text transform="matrix(1 0 0 1 259.2192 176.1796)" class="st5 st1 st6">53</text>
-	<text transform="matrix(1 0 0 1 282.8813 169.8475)" class="st5 st7 st8">%</text>
-	<text transform="matrix(1 0 0 1 258.6997 188.5765)" class="st0 st1 st2">Fars</text>
-	<text transform="matrix(1 0 0 1 49.73 266.9266)" class="st5 st1 st6">17</text>
-	<text transform="matrix(1 0 0 1 69.5063 260.6073)" class="st5 st7 st8">%</text>
-	<text transform="matrix(1 0 0 1 49.7095 279.6561)" class="st0 st1 st2">Turk</text>
+	<text transform="matrix(1 0 0 1 60.5806 62.4544)" class="st5 st1 st6">۶</text>
+	<text transform="matrix(1 0 0 1 73.1523 56.1288)" class="st5 st7 st8">٪</text>
+	<text transform="matrix(1 0 0 1 60.5693 75.7865)" class="st3 st1 st2">گیلک یا مازندرانی</text>
+	<text transform="matrix(1 0 0 1 60.5693 87.7865)" class="st3 st1 st2">(شمال)</text>
+	<text transform="matrix(1 0 0 1 127.8296 54.8905)" class="st5 st1 st6">۶</text>
+	<text transform="matrix(1 0 0 1 140.4072 48.5633)" class="st5 st7 st8">٪</text>
+	<text transform="matrix(1 0 0 1 127.8296 66.5365)" class="st0 st1 st2">سایر</text>
+	<text transform="matrix(1 0 0 1 17.9268 115.0672)" class="st5 st1 st6">۶</text>
+	<text transform="matrix(1 0 0 1 30.5088 108.7489)" class="st5 st7 st8">٪</text>
+	<text transform="matrix(1 0 0 1 18.5396 127.5765)" class="st0 st1 st2">لر</text>
+	<text transform="matrix(1 0 0 1 12.9741 179.0052)" class="st5 st1 st6">۹</text>
+	<text transform="matrix(1 0 0 1 25.5547 172.6869)" class="st5 st7 st8">٪</text>
+	<text transform="matrix(1 0 0 1 12.9595 190.9764)" class="st0 st1 st2">کرد</text>
+	<text transform="matrix(1 0 0 1 259.2192 176.1796)" class="st5 st1 st6">۵۳</text>
+	<text transform="matrix(1 0 0 1 282.8813 169.8475)" class="st5 st7 st8">٪</text>
+	<text transform="matrix(1 0 0 1 261.6997 188.5765)" class="st0 st1 st2">فارس</text>
+	<text transform="matrix(1 0 0 1 49.73 266.9266)" class="st5 st1 st6">۱۷</text>
+	<text transform="matrix(1 0 0 1 69.5063 260.6073)" class="st5 st7 st8">٪</text>
+	<text transform="matrix(1 0 0 1 54.7095 279.6561)" class="st0 st1 st2">ترک</text>
 </g>
 <g class="anim1">
 	<path class="st5" d="M145.6,81.4c50.1,0,90.7,40.6,90.7,90.7s-40.6,90.7-90.7,90.7c-6.3,0-12.5-0.7-18.7-1.9

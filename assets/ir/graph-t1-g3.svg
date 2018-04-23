@@ -56,25 +56,27 @@
 <g class="anim3">
 	<path class="st4" d="M178.1,402.4c57.3-32.4,77.5-105.2,45.1-162.6c-32.4-57.3-105.2-77.5-162.6-45.1S-17,299.9,15.5,357.3
 	C47.9,414.6,120.7,434.8,178.1,402.4"/>
-	<text transform="matrix(1 0 0 1 110.1735 242.659)" class="st5 st6 st7">1</text>
-	<text transform="matrix(1 0 0 1 70.9269 289.9973)"><tspan x="0" y="0" class="st5 st8 st9">Observe</tspan> <tspan x="0" y="1.2em" class="st5 st8 st9"> ethical</tspan> <tspan x="0" y="2.4em" class="st5 st8 st9">standards</tspan> <tspan x="0" y="3.6em" class="st5 st8 st9">at work</tspan></text>
+	<text transform="matrix(1 0 0 1 110.1735 262.659)" class="st5 st6 st7">۱</text>
+	<text transform="matrix(1 0 0 1 45.9269 319.9973)"><tspan x="0" y="0" class="st5 st8 st9">رعایت استانداردهای</tspan></text>
+	<text transform="matrix(1 0 0 1 70.9269 319.9973)"><tspan x="0" y="1em" class="st5 st8 st9">اخلاقی در کار</tspan></text>
 </g>
 <g class="anim4">
 	<path class="st4" d="M338.7,223.2c57.3-32.4,77.5-105.2,45.1-162.6C351.4,3.2,278.6-17,221.2,15.5c-57.4,32.4-77.5,105.2-45.1,162.6
 	C208.6,235.4,281.4,255.6,338.7,223.2"/>
-	<text transform="matrix(1 0 0 1 270.82 63.4602)" class="st5 st6 st7">2</text>
-	<text transform="matrix(1 0 0 1 216.0519 117.9978)" class="st5 st8 st9"><tspan x="0" y="0">Be diligent</tspan> <tspan x="0" y="1.2em">and efficient</tspan></text>
+	<text transform="matrix(1 0 0 1 270.82 73.4602)" class="st5 st6 st7">۲</text>
+	<text transform="matrix(1 0 0 1 191.0519 137.9978)" class="st5 st8 st9"><tspan x="0" y="0">سخت کوش و موثر بودن</tspan></text>
 </g>
 <g class="anim5">
 	<path class="st4" d="M580.1,223.2c57.3-32.4,77.5-105.2,45.1-162.6C592.7,3.2,519.9-17,462.6,15.5c-57.3,32.4-77.5,105.2-45.1,162.6
 	C449.9,235.4,522.7,255.6,580.1,223.2"/>
-	<text transform="matrix(1 0 0 1 512.1491 63.4602)" class="st5 st6 st7">3</text>
-	<text transform="matrix(1 0 0 1 463.652 107.4475)"><tspan x="0" y="0" class="st5 st8 st9"><tspan x="0" y="0">Offer good</tspan> <tspan x="0" y="1.2em">quality of</tspan> <tspan x="0" y="2.4em">products/</tspan><tspan x="0" y="3.6em">services</tspan></text>
+	<text transform="matrix(1 0 0 1 512.1491 73.4602)" class="st5 st6 st7">۳</text>
+	<text transform="matrix(1 0 0 1 437.652 127.4475)"><tspan x="0" y="0" class="st5 st8 st9"><tspan x="0" y="0">ارایه خدمات و سرویس</tspan></text>
+	<text transform="matrix(1 0 0 1 465.652 127.4475)"><tspan x="0" y="0" class="st5 st8 st9"><tspan x="0" y="1em">های با کیفیت بالا</tspan></text>
 </g>
 <g class="anim6">
 	<path class="st4" d="M742.7,401.9c57.3-32.4,77.5-105.2,45.1-162.6c-32.4-57.3-105.2-77.5-162.6-45.1
 	c-57.3,32.4-77.5,105.2-45.1,162.6C612.6,414.1,685.4,434.3,742.7,401.9"/>
-	<text transform="matrix(1 0 0 1 674.8327 242.1438)" class="st5 st6 st7">4</text>
-	<text transform="matrix(1 0 0 1 635.652 289.9231)"><tspan x="0" y="0" class="st5 st8 st9"><tspan x="0" y="0">Respect</tspan> <tspan x="0" y="1.2em">workers'</tspan> <tspan x="0" y="2.4em">rights</tspan></text>
+	<text transform="matrix(1 0 0 1 674.8327 252.1438)" class="st5 st6 st7">۴</text>
+	<text transform="matrix(1 0 0 1 595.652 309.9231)"><tspan x="0" y="0" class="st5 st8 st9"><tspan x="0" y="0">احترام به حقوق کارگران</tspan></text>
 </g>
 </svg>

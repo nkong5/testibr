@@ -1324,31 +1324,31 @@
 	<rect x="207.2" y="338.3" class="st0" width="118" height="7.1"/>
 	<rect x="282.3" y="272.2" class="st0" width="42.9" height="7.2"/>
 </g>
-<g class="anim1-0"><text transform="matrix(1 0 0 1 29.9136 67.6935)"><tspan x="0" y="0" class="st11 st8 st12">Time frame:</tspan></text></g>
+<g class="anim1-0"><text transform="matrix(1 0 0 1 79.9136 67.6935)"><tspan x="0" y="0" class="st11 st8 st12">بازه زمانی</tspan></text></g>
 <g class="anim1-1">
 	<text transform="matrix(1 0 0 1 198.0654 66.8551)"><tspan x="0" y="0" class="st3 st8 st9">7-13 Nov. 2017</tspan></text>
 </g>
-<g class="anim3-0"><text transform="matrix(1 0 0 1 0 283.0494)"><tspan x="0" y="0" class="st11 st8 st12">Margin of error:</tspan></text></g>
+<g class="anim3-0"><text transform="matrix(1 0 0 1 75 283.0494)"><tspan x="0" y="0" class="st11 st8 st12">احتمال خطا</tspan></text></g>
 <g class="anim3-1">
 	<text transform="matrix(1 0 0 1 209.376 283.3053)" class="st11 st8 st12">+/-</text>
 	<text transform="matrix(1 0 0 1 239.4243 283.3121)"><tspan x="0" y="0" class="st3 st8 st9">3,1</text>
 	<text transform="matrix(1 0 0 1 263.7241 276.985)" class="st3 st14 st15">%</text>
 </g>
-<g class="anim2-0"><text transform="matrix(1 0 0 1 422.5439 66.3136)"><tspan x="0" y="0" class="st11 st8 st12">Sample size:</tspan></text></g>
+<g class="anim2-0"><text transform="matrix(1 0 0 1 452.5439 66.3136)"><tspan x="0" y="0" class="st11 st8 st12">تعداد نمونه ها</tspan></text></g>
 <g class="anim2-1">
-	<text transform="matrix(1 0 0 1 566.2285 67.1212)"><tspan x="0" y="0" class="st3 st8 st9">1,004</tspan></text>
-	<text transform="matrix(1 0 0 1 435.3252 319.9449)"><tspan x="0" y="0" class="st3 st8 st13">*proportional distribution</tspan></text>
-	<text transform="matrix(1 0 0 1 646.1426 322.8229)"><tspan x="0" y="0" class="st3 st8 st9">31 provinces</tspan></text>
+	<text transform="matrix(1 0 0 1 566.2285 67.1212)"><tspan x="0" y="0" class="st3 st8 st9">۱،۰۰۴</tspan></text>
+	<text transform="matrix(1 0 0 1 475.3252 319.9449)"><tspan x="0" y="0" class="st3 st8 st13">نسبت توزیع</tspan></text>
+	<text transform="matrix(1 0 0 1 676.1426 342.8229)"><tspan x="0" y="0" class="st3 st8 st9">۳۱ استان</tspan></text>
 </g>
-<g class="anim4-0"><text transform="matrix(1 0 0 1 59.4336 499.901)" class="st11 st8 st12">Method:</text></g>
+<g class="anim4-0"><text transform="matrix(1 0 0 1 110.4336 499.901)" class="st11 st8 st12">متد</text></g>
 <g class="anim4-1">
 	<text transform="matrix(1 0 0 1 396.7485 523.9196)"><tspan x="0" y="0" class="st3 st8 st9">CATI</tspan></text>
-	<text transform="matrix(1 0 0 1 561.0586 558.7369)"><tspan x="0" y="0" class="st16 st8 st13">• contact rate</tspan></text>
-	<text transform="matrix(1 0 0 1 669.0586 558.7369)"><tspan x="0" y="0" class="st3 st8 st9">71</tspan></text>
-	<text transform="matrix(1 0 0 1 689.0234 552.4098)" class="st3 st14 st15">%</text>
-	<text transform="matrix(1 0 0 1 561.0586 581.5367)"><tspan x="0" y="0" class="st16 st8 st13">• completion rate</tspan></text>
-	<text transform="matrix(1 0 0 1 669.0586 581.5367)"><tspan x="0" y="0" class="st3 st8 st9">76</tspan></text>
-	<text transform="matrix(1 0 0 1 693.0176 575.2096)" class="st3 st14 st15">%</text>
+	<text transform="matrix(1 0 0 1 561.0586 553.7369)"><tspan x="0" y="0" class="st16 st8 st13">میزان تماس</tspan></text>
+	<text transform="matrix(1 0 0 1 669.0586 558.7369)"><tspan x="0" y="0" class="st3 st8 st9">۷۱</tspan></text>
+	<text transform="matrix(1 0 0 1 689.0234 552.4098)" class="st3 st14 st15">٪</text>
+	<text transform="matrix(1 0 0 1 561.0586 576.5367)"><tspan x="0" y="0" class="st16 st8 st13">میزان پاسخگویی کامل</tspan></text>
+	<text transform="matrix(1 0 0 1 669.0586 581.5367)"><tspan x="0" y="0" class="st3 st8 st9">۷۶</tspan></text>
+	<text transform="matrix(1 0 0 1 693.0176 575.2096)" class="st3 st14 st15">٪</text>
 	<text transform="matrix(1 0 0 1 414.4814 612.0612)"><tspan x="0" y="0" class="st3 st8 st13">*three attemps</tspan></text>
 </g>
 </svg>

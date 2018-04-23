@@ -133,24 +133,24 @@
 		"/>
 </g>
 <g class="anim6-2">
-	<text transform="matrix(1 0 0 1 101.6582 53.1377)"><tspan x="0" y="0" class="st7 st2 st8">Insurance coverage for work injuries</tspan></text>
-	<text transform="matrix(1 0 0 1 501.8662 57.8979)"><tspan x="0" y="0" class="st0 st2 st13">9.3</tspan></text>
+	<text transform="matrix(1 0 0 1 101.6582 53.1377)"><tspan x="0" y="0" class="st7 st2 st8">پوشش بیمه برای مصدومیت های ناشی از کار</tspan></text>
+	<text transform="matrix(1 0 0 1 501.8662 57.8979)"><tspan x="0" y="0" class="st0 st2 st13">۹،۳</tspan></text>
 </g>
 <g class="anim7-2">
-	<text transform="matrix(1 0 0 1 101.6582 143.0576)"><tspan x="0" y="0" class="st7 st2 st8">Provide adequate safety equipment</tspan></text>
-	<text transform="matrix(1 0 0 1 513.8662 147.2378)"><tspan x="0" y="0" class="st0 st2 st13">9.4</tspan></text>
+	<text transform="matrix(1 0 0 1 101.6582 143.0576)"><tspan x="0" y="0" class="st7 st2 st8">تعبیه و تدارک تجهیزات ایمنی</tspan></text>
+	<text transform="matrix(1 0 0 1 513.8662 147.2378)"><tspan x="0" y="0" class="st0 st2 st13">۹،۴</tspan></text>
 </g>
 <g class="anim8-2">
-	<text transform="matrix(1 0 0 1 101.6582 232.002)"><tspan x="0" y="0" class="st7 st2 st8 st9">Training on safety protocols</tspan></text>
-	<text transform="matrix(1 0 0 1 493.8564 232.6177)"><tspan x="0" y="0" class="st0 st2 st13">9.2</tspan></text>
+	<text transform="matrix(1 0 0 1 101.6582 232.002)"><tspan x="0" y="0" class="st7 st2 st8 st9">آموزش پروتکل های ایمنی</tspan></text>
+	<text transform="matrix(1 0 0 1 493.8564 232.6177)"><tspan x="0" y="0" class="st0 st2 st13">۹،۲</tspan></text>
 </g>
 <g class="anim9-2">
-	<text transform="matrix(1 0 0 1 101.6582 321.1133)"><tspan x="0" y="0" class="st7 st2 st8 st9">Avoid exposure to harmful conditions</tspan></text>
-	<text transform="matrix(1 0 0 1 501.8662 323.9678)"><tspan x="0" y="0" class="st0 st2 st13">9.3</tspan></text>
+	<text transform="matrix(1 0 0 1 101.6582 321.1133)"><tspan x="0" y="0" class="st7 st2 st8 st9">اجتناب از قرار گرفتن در معرض شرایط مضر و خطرناک  </tspan></text>
+	<text transform="matrix(1 0 0 1 501.8662 323.9678)"><tspan x="0" y="0" class="st0 st2 st13">۹،۳</tspan></text>
 </g>
 <g class="anim10">
-	<text transform="matrix(1 0 0 1 8.7598 403.1875)"><tspan x="0" y="0" class="st0 st2 st10">9.2</tspan></text>
-	<text transform="matrix(1 0 0 1 10.0352 423.2871)"><tspan x="0" y="0" class="st1 st2 st11">*</tspan><tspan x="5.3" y="0" class="st1 st2 st11">average score for workplace safety</tspan></text>
+	<text transform="matrix(1 0 0 1 8.7598 403.1875)"><tspan x="0" y="0" class="st0 st2 st10">۹،۲</tspan></text>
+	<text transform="matrix(1 0 0 1 10.0352 423.2871)"><tspan x="0" y="0" class="st1 st2 st11">*</tspan><tspan x="5.3" y="0" class="st1 st2 st11">میانگین امتیاز برای ایمنی در محیط کار</tspan></text>
 </g>
 <g class="anim4">
 	<text transform="matrix(1 0 0 1 725.5996 10.2598)" class="st1 st2 st3">100%</text>
@@ -159,5 +159,5 @@
 	<text transform="matrix(1 0 0 1 350.8076 525.5352)" class="st1 st2 st3">5</text>
 	<text transform="matrix(1 0 0 1 697.8838 525.5352)" class="st1 st2 st3">10</text>
 </g>
-<g class="anim1"><text transform="matrix(1 0 0 1 366.5801 559.9307)"><tspan x="0" y="0" class="st1 st2 st12">Priority given to workplace safety</tspan></text></g>
+<g class="anim1"><text transform="matrix(1 0 0 1 440.5801 559.9307)"><tspan x="0" y="0" class="st1 st2 st12">اولویت داده شده به ایمنی محیط کار</tspan></text></g>
 </svg>
