@@ -28,6 +28,10 @@ svg { display:block; max-height:1000vw; width:100%; height:auto; }
 
 .mainHeaderLang { pointer-events:all; transition:.3s background ease-in-out; background:#586169; text-decoration:none; color:#FFF; border-radius:100%; display:inline-block; text-align:center; box-sizing:border-box; width:3.4vw; height:3.4vw; font-size:.75em; line-height:3.4vw;}
 .mainHeaderLang:hover { background:#333333; }
+
+@media (max-width:744px) and (max-aspect-ratio: 3/2) { 
+	.mainHeaderLang { width:9vw; height:9vw; font-size:1em; line-height:9vw;}
+}
 .mainHeaderBurgerBtn { pointer-events:all; transition:.3s transform ease-in-out, .3s opacity ease-in-out; text-decoration:none; position:absolute; right:5vw; top:50%; transform:translate(0,-50%); -webkit-transform:translate(0,-50%); }
 .mainHeaderBurgerBtn.Active { transform:translate(11vw, -50%); -webkit-transform:translate(11vw, -50%); opacity:0;}
 .mainHeaderBurgerBtn > span { position:relative; bottom:.5vw; right:1vw; color:#586168; }
