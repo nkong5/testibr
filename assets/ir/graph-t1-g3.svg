@@ -7,9 +7,9 @@
 	#SVG_T1G3 .st3{fill:none;stroke:#7DCDA5;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,30.709;}
 	#SVG_T1G3 .st4{fill:#7DCDA5;}
 	#SVG_T1G3 .st5{fill:#E5E5E5;}
-	#SVG_T1G3 .st6{font-family:'Raleway'; font-weight:600;}
+	#SVG_T1G3 .st6{ font-weight:600;}
 	#SVG_T1G3 .st7{font-size:43.3967px;}
-	#SVG_T1G3 .st8{font-family:'Raleway'; font-weight:600;}
+	#SVG_T1G3 .st8{ font-weight:600;}
 	#SVG_T1G3 .st9{font-size:22px;}
 </style>
 <g class="anim1">

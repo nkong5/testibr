@@ -373,7 +373,7 @@ body.IntroductionActive .Introduction::before { opacity:0.1; transition-delay:1s
 }
 
 /* IR RTL */
-body.fa-IR .El_Q::before { content:'پرسش'; text-direction:rtl; text-align:right;}
+body.fa-IR .El_Q::before { content:'.پرسش'; text-direction:rtl; text-align:right;}
 
 body.fa-IR .Section_Intro .Content { width:23vw; }
 @media (max-width:744px) and (max-aspect-ratio: 3/2) { 

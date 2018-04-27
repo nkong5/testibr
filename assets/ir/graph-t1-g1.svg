@@ -8,11 +8,11 @@
 	.t1-g1-st4{fill:none;stroke:#3E4042;stroke-width:1}
 	.t1-g1-st5{fill:none;stroke:#80CAA4;stroke-miterlimit:10;}
 	.t1-g1-st6{fill:none;stroke:#80CAA4;stroke-width:1.051;stroke-miterlimit:10;}
-	.t1-g1-st7{font-family:'Raleway'; font-weight:600;}
+	.t1-g1-st7{ font-weight:600;}
 	.t1-g1-st8{font-size:11px;}
-	.t1-g1-st10{font-family:'Raleway'; font-weight:700;}
+	.t1-g1-st10{ font-weight:700;}
 	.t1-g1-st11{font-size:50.9934px;}
-	.t1-g1-st12{font-family:'Raleway'; font-weight:300;}
+	.t1-g1-st12{ font-weight:300;}
 	.t1-g1-st13{font-size:29.7292px;}
 	.t1-g1-st14{fill:none;stroke:#DF3A4A;stroke-width:2.649;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,7.733;}
 	.t1-g1-st15{fill:none;stroke:#DF3A4A;stroke-width:2.649;stroke-linecap:round;stroke-linejoin:round;}
@@ -116,7 +116,7 @@
 <text transform="matrix(1 0 0 1 359.1436 96.6157)" class="t1-g1-st3 t1-g1-st7 t1-g1-st8"><tspan class="rtl" x="0" dy="1em">استفاده روزانه از تلگرام</tspan></text>
 </g>
 <g class="t1-g1-anim6">
-<text transform="matrix(1 0 0 1 359.1436 252.5434)" class="t1-g1-st3 t1-g1-st7 t1-g1-st8"><tspan class="rtl" x="0" dy="0em"><tspan>بیش از</tspan> <tspan class="t1-g1-st2">یک سوم </tspan><tspan>پاسخ دهندگان،</tspan></text>
+<text transform="matrix(1 0 0 1 359.1436 252.5434)" class="t1-g1-st3 t1-g1-st7 t1-g1-st8"><tspan class="rtl" x="0" dy="0em"><tspan>،بیش از</tspan> <tspan class="t1-g1-st2">یک سوم </tspan><tspan>پاسخ دهندگان</tspan></text>
 <text transform="matrix(1 0 0 1 359.1436 252.5434)" class="t1-g1-st3 t1-g1-st7 t1-g1-st8"><tspan class="rtl" x="0" dy="1em">بیشتر از یک بار در هفته شبکه</tspan></text>
 <text transform="matrix(1 0 0 1 359.1436 252.5434)" class="t1-g1-st3 t1-g1-st7 t1-g1-st8"><tspan class="rtl" x="0" dy="2em">های ماهواره ای را میبینند و</tspan></text>
 <text transform="matrix(1 0 0 1 359.1436 252.5434)" class="t1-g1-st3 t1-g1-st7 t1-g1-st8"><tspan class="rtl" x="0" dy="3em">به رادیوهای خارجی گوش میدهند</tspan></text>

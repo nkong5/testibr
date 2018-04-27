@@ -5,10 +5,10 @@
 	#SVG_T3G3 .st1{fill:#7DCDA5;}
 	#SVG_T3G3 .st2{fill:#73818A;}
 	#SVG_T3G3 .st3{fill:#3D3F41;}
-	#SVG_T3G3 .st4{font-family:'Raleway'; font-weight:600;}
+	#SVG_T3G3 .st4{ font-weight:600;}
 	#SVG_T3G3 .st5{font-size:15px;}
 	#SVG_T3G3 .st6{font-size:43.3967px;}
-	#SVG_T3G3 .st7{font-family:'Raleway'; font-weight:400;}
+	#SVG_T3G3 .st7{ font-weight:400;}
 	#SVG_T3G3 .st8{font-size:25.3003px;}
 	#SVG_T3G3 .st9{font-size:70px;}
 	#SVG_T3G3 .st10{font-size:40.81px;}

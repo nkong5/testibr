@@ -3,10 +3,10 @@
 <style type="text/css">
 	#SVG_T2G2 .st0{fill:#DE3849;}
 	#SVG_T2G2 .st1{fill:#3B454A;}
-	#SVG_T2G2 .st2{font-family:'Raleway'; font-weight:600;}
+	#SVG_T2G2 .st2{ font-weight:600;}
 	#SVG_T2G2 .st3{font-size:12px; }
 	#SVG_T2G2 .st4{fill:none;stroke:#3B454A;}
-	#SVG_T2G2 .st5{font-family:'Raleway'; font-weight:400;}
+	#SVG_T2G2 .st5{ font-weight:400;}
 	#SVG_T2G2 .st6{fill:none;stroke:#E5E5E5;stroke-width:0.248;stroke-miterlimit:10;}
 	#SVG_T2G2 .st7{fill:#E5E5E5;}
 	#SVG_T2G2 .st8{font-size:16px;}

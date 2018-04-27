@@ -2,16 +2,16 @@
 	 viewBox="0 0 303.8 297.4" data-viewBox="0 0 303.8 297.4" style="enable-background:new 0 0 303.8 297.4;" xml:space="preserve">
 <style type="text/css">
 	#SVG_T5-1 .st0{fill:#3D3F41;}
-	#SVG_T5-1 .st1{font-family:'Raleway'; font-weight:600;}
+	#SVG_T5-1 .st1{ font-weight:600;}
 	#SVG_T5-1 .st2{font-size:10px; }
 	#SVG_T5-1 .st3{font-size:25px;}
 	#SVG_T5-1 .st4{fill:#DE3849;}
 </style>
 <g class="anim0"><text transform="matrix(1 0 0 1 140.6218 21.3749)" class="st0 st1 st3">سن</text></g>
 <g class="anim1-1">
-	<text transform="matrix(1 0 0 1 31.51 225.9066)" class="st0 st1 st2">زیر </text> 
-	<text transform="matrix(1 0 0 1 31.51 237.9066)" class="st0 st1 st2">۲۰ </text> 
-	<text transform="matrix(1 0 0 1 31.51 219.9066)" class="st0 st1 st2">سال</text>
+	<text transform="matrix(1 0 0 1 31.51 219.9066)" class="st0 st1 st2">زیر </text> 
+	<text transform="matrix(1 0 0 1 31.51 236.9066)" class="st0 st1 st2">۲۰ </text> 
+	<text transform="matrix(1 0 0 1 31.51 250.9066)" class="st0 st1 st2">سال</text>
 </g>
 <g class="anim2-1">
 	<text transform="matrix(1 0 0 1 67.3699 225.7162)" class="st0 st1 st2">۲۰-</text>
@@ -30,8 +30,8 @@
 	<text transform="matrix(1 0 0 1 184.5999 237.7162)" class="st0 st1 st2">۵۹</text>
 </g>
 <g class="anim6-1">
-	<text transform="matrix(1 0 0 1 219.1799 225.9066)" class="st0 st1 st2">و بالاتر</text>
-	<text transform="matrix(1 0 0 1 219.1799 237.9066)" class="st0 st1 st2">۶۰</text>
+	<text transform="matrix(1 0 0 1 240.1799 225.9066)" class="st0 st1 st2 rtl">۶۰ و</text>
+	<text transform="matrix(1 0 0 1 222.1799 237.9066)" class="st0 st1 st2">بالاتر</text>
 </g>
 <g class="anim7-1">
 	<text transform="matrix(1 0 0 1 262.6301 225.7162)" class="st0 st1 st2">غیر</text>

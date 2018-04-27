@@ -5,7 +5,7 @@
 	#SVG_T1G4 .st1{fill:#DE3849;}
 	#SVG_T1G4 .st2{fill:#E5E5E5;}
 	#SVG_T1G4 .st3{fill:#3D3F41;}
-	#SVG_T1G4 .st4{font-family:'Raleway'; font-weight:600;}
+	#SVG_T1G4 .st4{ font-weight:600;}
 	#SVG_T1G4 .st5{font-size:16px;}
 	#SVG_T1G4 .st7{fill:#73818A;}
 </style>
